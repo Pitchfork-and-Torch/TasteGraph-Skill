@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Updates - TasteGraph</title>
+  <meta name="description" content="Public update log for TasteGraph product site and decision wheel. Graph versions, wheel refreshes, and source-link practice." />
+  <meta name="theme-color" content="#0b0c0f" />
+  <link rel="canonical" href="https://tastegraph.jonbailey.xyz/updates/" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="alternate" type="application/json" href="/updates/log.json" title="TasteGraph update log JSON" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TasteGraph" />
+  <meta property="og:title" content="TasteGraph updates" />
+  <meta property="og:description" content="Public changelog for the TasteGraph wheel and product site." />
+  <meta property="og:url" content="https://tastegraph.jonbailey.xyz/updates/" />
+  <meta property="og:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.4" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TasteGraph updates" />
+  <meta name="twitter:description" content="Public changelog for the TasteGraph wheel and product site." />
+  <meta name="twitter:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.4" />
+
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&f[]=clash-display@500,600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --panel: #12141a;
+      --ink: #ece8e1;
+      --muted: #9a948a;
+      --faint: #5c574f;
+      --gold: #d4a85a;
+      --line: #2a2d36;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+      background:
+        radial-gradient(ellipse 70% 45% at 20% 0%, rgba(212,168,90,0.08), transparent 50%),
+        var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: center;
+      margin-bottom: 36px; font-size: 14px;
+    }
+    .nav a { color: var(--gold); text-decoration: none; font-weight: 600; }
+    .nav a:hover { text-decoration: underline; }
+    .nav .sep { color: var(--line); }
+    .kicker {
+      font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--gold); font-weight: 700; margin-bottom: 10px;
+    }
+    h1 {
+      font-family: "Clash Display", "Satoshi", sans-serif;
+      font-size: clamp(28px, 4.5vw, 40px); letter-spacing: -0.03em;
+      line-height: 1.1; margin-bottom: 12px;
+    }
+    .lede { color: var(--muted); font-size: 16px; max-width: 54ch; margin-bottom: 32px; }
+    .note {
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 12px; padding: 14px 16px; color: var(--muted);
+      font-size: 13.5px; margin-bottom: 36px;
+    }
+    .note strong { color: var(--ink); font-weight: 600; }
+    .log { display: flex; flex-direction: column; gap: 22px; }
+    article {
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 16px; padding: 22px 22px 20px;
+      position: relative;
+    }
+    article::before {
+      content: "";
+      position: absolute; left: 0; top: 22px; bottom: 22px; width: 3px;
+      border-radius: 0 3px 3px 0; background: var(--gold); opacity: 0.85;
+    }
+    .meta {
+      display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center;
+      margin-bottom: 10px;
+    }
+    time {
+      font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--faint); font-weight: 700;
+    }
+    .ver {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: #12100a; background: var(--gold);
+      padding: 3px 8px; border-radius: 999px;
+    }
+    .tag {
+      font-size: 11px; font-weight: 600; color: var(--muted);
+      border: 1px solid var(--line); padding: 3px 8px; border-radius: 999px;
+    }
+    article h2 {
+      font-family: "Clash Display", sans-serif;
+      font-size: 20px; letter-spacing: -0.02em; margin-bottom: 10px;
+    }
+    article p { color: var(--muted); font-size: 14.5px; margin-bottom: 10px; }
+    article p:last-child { margin-bottom: 0; }
+    article ul {
+      margin: 8px 0 0 1.1em; color: var(--muted); font-size: 14.5px;
+    }
+    article li { margin-bottom: 6px; }
+    article a { color: var(--gold); }
+    footer {
+      margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
+      color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 12px 20px;
+    }
+    footer a { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a href="/">Home</a>
+      <span class="sep" aria-hidden="true">/</span>
+      <a href="/wheel/">Wheel</a>
+      <span class="sep" aria-hidden="true">/</span>
+      <span style="color:var(--muted)">Updates</span>
+      <span class="sep" aria-hidden="true">·</span>
+      <a href="/updates/log.json">JSON</a>
+    </nav>
+
+    <p class="kicker">Public product log</p>
+    <h1>TasteGraph updates</h1>
+    <p class="lede">
+      What changed on the public site and decision wheel. Newest first.
+      Machine-readable twin: <a href="/updates/log.json" style="color:var(--gold)">log.json</a>.
+    </p>
+
+    <p class="note">
+      <strong>Standing practice:</strong> every public pie / wheel refresh appends an entry here
+      (and in <code>log.json</code>). Public art stills include source links to the original posts
+      when available.
+    </p>
+
+    <div class="log" id="log">
+      <article id="v1-3-8">
+        <div class="meta">
+          <time datetime="2026-08-07">2026-08-07</time>
+          <span class="ver">1.3.8</span>
+          <span class="tag">grid</span>
+          <span class="tag">sources</span>
+          <span class="tag">ingest</span>
+        </div>
+        <h2>August 7 love dump: +108 sources, grid 237</h2>
+        <p>
+          Offline love ingest from a 108-post public X dump (Desktop batch).
+          Public <strong style="color:var(--ink)">Grid</strong> and contributing-sources
+          catalog expanded with original post links. Featured pie wedge stills unchanged
+          (unshipped peaks stay on the backlog for a later mass pie ship).
+        </p>
+        <ul>
+          <li>108 new posts in batch love-2026-08-07-dump (0 evidence post_id duplicates)</li>
+          <li>Grid: <a href="/wheel/ingest-stills.json">237 public-art stills</a> (106 new thumbs with credit + href)</li>
+          <li>Catalog: <a href="/wheel/contributing-sources.json">239 contributing sources</a></li>
+          <li>Peaks: threejsassets free assets, creativedash Sticky upgrade, dnatsuuu WebGL, jh3yy spritesheets, GalacticStones objects, JimMusil physical paint, RikOostenbroek bloom</li>
+          <li>Tool signal noted offline: <a href="https://motionsites.ai/mcp">motionsites.ai/mcp</a></li>
+        </ul>
+        <p><a href="/wheel/?view=grid">Open the grid</a> · <a href="/wheel/">Open the wheel</a></p>
+      </article>
+
+      <article id="v1-3-7">
+        <div class="meta">
+          <time datetime="2026-08-06">2026-08-06</time>
+          <span class="ver">1.3.7</span>
+          <span class="tag">wheel</span>
+          <span class="tag">grid</span>
+          <span class="tag">ingest</span>
+        </div>
+        <h2>Wheel + Grid: full ingest stills archive</h2>
+        <p>
+          Secondary <strong style="color:var(--ink)">Grid</strong> view on the decision wheel
+          lists every public-art still ingested into TasteGraph (compressed screenshots from
+          offline love batches). Toggle <strong style="color:var(--ink)">Wheel | Grid</strong>
+          in the top bar, filter by register, open the source post when known.
+        </p>
+        <ul>
+          <li>View toggle pauses the 3D wheel while browsing the archive</li>
+          <li>157 stills under <a href="/wheel/ingest-stills.json">ingest-stills.json</a></li>
+          <li>Featured pie stills marked; deep link <a href="/wheel/?view=grid">?view=grid</a></li>
+        </ul>
+        <p><a href="/wheel/?view=grid">Open the grid</a> · <a href="/wheel/">Open the wheel</a></p>
+      </article>
+
+      <article id="v1-3-6">
+        <div class="meta">
+          <time datetime="2026-08-06">2026-08-06</time>
+          <span class="ver">1.3.6</span>
+          <span class="tag">wheel</span>
+          <span class="tag">sources</span>
+          <span class="tag">catalog</span>
+        </div>
+        <h2>August 6 love dump pie refresh + full backlinks</h2>
+        <p>
+          Decision wheel refreshed from a 36-post public X love dump. Every featured still
+          ships with <strong style="color:var(--ink)">Source @handle</strong> and a post URL.
+          The contributing-sources catalog was rebuilt from the full offline evidence map
+          so the side panel lists <strong style="color:var(--ink)">every backlink</strong>, not only wedge stills.
+        </p>
+        <ul>
+          <li>18 featured stills replaced with v136 cache-bust assets (all credit + href)</li>
+          <li>36 new posts in batch love-2026-08-06-dump (image + video)</li>
+          <li><a href="/wheel/contributing-sources.json">131 contributing sources</a> (99 image, 32 video)</li>
+          <li>Peaks: GalacticStones megalith, chxrxg heroes, booterart overhead, rare_jpg circuit cat, iamlaurael physical paint</li>
+        </ul>
+        <p><a href="/wheel/">Open the wheel</a></p>
+      </article>
+
+      <article id="v1-3-4-sources">
+        <div class="meta">
+          <time datetime="2026-08-05">2026-08-05</time>
+          <span class="ver">1.3.4</span>
+          <span class="tag">sources</span>
+          <span class="tag">catalog</span>
+        </div>
+        <h2>Full contributing sources catalog in wheel panel</h2>
+        <p>
+          Side panel now tracks every public art, image, video, or craft post that informed
+          TasteGraph. Two lists are <strong style="color:var(--ink)">collapsed by default</strong>:
+          All contributing sources, and More sources for this register.
+        </p>
+        <ul>
+          <li>Machine-readable catalog: <a href="/wheel/contributing-sources.json">contributing-sources.json</a></li>
+          <li>Featured pie stills stay primary; full link history is one click open</li>
+          <li>Offline evidence-map expanded with Kali batch post IDs</li>
+        </ul>
+        <p><a href="/wheel/">Open the wheel</a></p>
+      </article>
+
+      <article id="v1-3-4">
+        <div class="meta">
+          <time datetime="2026-08-05">2026-08-05</time>
+          <span class="ver">1.3.4</span>
+          <span class="tag">wheel</span>
+          <span class="tag">sources</span>
+          <span class="tag">craft</span>
+        </div>
+        <h2>Kali Things craft + mythos pie refresh</h2>
+        <p>
+          Decision wheel examples refreshed from the Kali Things public X dump:
+          sacred tech objects, Star Samurai, RESPAWN void, Motoko cyber portrait,
+          Kling 3 hero motion, UI8 portfolio physics, Framer shaders footer, and
+          confidential-file secrecy chrome. Every still keeps a
+          <strong style="color:var(--ink)">Source @handle</strong> link.
+        </p>
+        <ul>
+          <li>Myth-tech + speculative: sacred objects, Star Samurai, RESPAWN</li>
+          <li>Pro / defensive craft: Framer shaders + confidential folder-reveal</li>
+          <li>Motion: Kling 3 hero plate + UI8 physics portfolio</li>
+          <li>Offline graph 1.3.4; free Framer marketplace watchlist in framer-agents skill</li>
+        </ul>
+        <p><a href="/wheel/">Open the wheel</a></p>
+      </article>
+
+      <article id="v1-3-3">
+        <div class="meta">
+          <time datetime="2026-08-05">2026-08-05</time>
+          <span class="ver">1.3.3</span>
+          <span class="tag">wheel</span>
+          <span class="tag">sources</span>
+        </div>
+        <h2>Wheel refresh with real public stills + source links</h2>
+        <p>
+          Decision wheel examples rebuilt from public art, design, type, and UI posts.
+          Every non-synthetic still shows a <strong style="color:var(--ink)">Source @handle</strong>
+          link to the original X post. Light reweight toward film-seed motion, speculative mythos,
+          and pro UI craft.
+        </p>
+        <ul>
+          <li>18 examples across 8 registers, all with public source URLs</li>
+          <li>Peaks: industrial scale figure, cosmic gothic void, underused editorial serifs</li>
+          <li>Standing rule: source links required on public-art pie examples when known</li>
+          <li>Build gate: <code>npm run check-sources</code> before wheel deploy</li>
+        </ul>
+        <p><a href="/wheel/">Open the wheel</a></p>
+      </article>
+
+      <article id="v1-1-0">
+        <div class="meta">
+          <time datetime="2026-08-04">2026-08-04</time>
+          <span class="ver">1.1.0</span>
+          <span class="tag">launch</span>
+          <span class="tag">wheel</span>
+        </div>
+        <h2>Public site + interactive 3D decision wheel</h2>
+        <p>
+          Product landing, MIT open-source skill repo, and Three.js decision-weight wheel at
+          <a href="/wheel/">/wheel/</a>. Exact arcs sum to 360 degrees. Hover a slice for
+          register meaning and example stills.
+        </p>
+        <ul>
+          <li>Agent skill: schema, validate, export system prompt + Markdown dashboard</li>
+          <li>Privacy-first: local files, no PII in schema samples</li>
+          <li>OG / tweet card ready for share previews</li>
+        </ul>
+      </article>
+    </div>
+
+    <footer>
+      <span>TasteGraph · MIT</span>
+      <a href="/">Home</a>
+      <a href="/wheel/">Wheel</a>
+      <a href="/updates/log.json">log.json</a>
+      <a href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill">Source</a>
+      <a href="https://x.com/suddenlyjon">@suddenlyjon</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TasteGraph Wheel - Interactive decision weight</title>
+    <meta
+      name="description"
+      content="Interactive 3D TasteGraph decision wheel plus full ingest stills grid. Switch views to explore registers or every public-art still."
+    />
+    <meta name="theme-color" content="#0a0b10" />
+    <link rel="canonical" href="https://tastegraph.jonbailey.xyz/wheel/" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- site-root favicon; works when deployed under /wheel/ -->
+    <meta property="og:title" content="TasteGraph Wheel" />
+    <meta
+      property="og:description"
+      content="Interactive 3D decision-weight wheel for a living personal taste graph."
+    />
+    <meta property="og:url" content="https://tastegraph.jonbailey.xyz/wheel/" />
+    <meta property="og:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.4" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TasteGraph Wheel" />
+    <meta
+      name="twitter:description"
+      content="Interactive 3D decision-weight wheel for a living personal taste graph."
+    />
+    <meta name="twitter:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.4" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&f[]=clash-display@500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/wheel/assets/index-Bub_xmWr.js"></script>
+    <link rel="stylesheet" crossorigin href="/wheel/assets/index-DqiVo_Cy.css">
+  </head>
+  <body>
+    <div id="boot" aria-hidden="true">
+      <div class="boot-inner">
+        <div class="boot-mark"></div>
+        <p>Loading wheel</p>
+      </div>
+    </div>
+
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <a class="home" href="/" title="TasteGraph home">
+            <span class="mark" aria-hidden="true"></span>
+          </a>
+          <div>
+            <p class="kicker">TasteGraph · decision weight</p>
+            <h1>Interactive wheel</h1>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="/">Home</a>
+          <a href="/updates/">Updates</a>
+          <a href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill" rel="noopener">GitHub</a>
+        </nav>
+        <div class="topbar-end">
+          <div class="view-toggle" role="tablist" aria-label="TasteGraph view mode">
+            <button
+              type="button"
+              class="view-btn is-active"
+              role="tab"
+              id="view-wheel"
+              data-view="wheel"
+              aria-selected="true"
+              aria-controls="stage-wheel"
+            >
+              Wheel
+            </button>
+            <button
+              type="button"
+              class="view-btn"
+              role="tab"
+              id="view-grid"
+              data-view="grid"
+              aria-selected="false"
+              aria-controls="stage-grid"
+            >
+              Grid
+            </button>
+          </div>
+          <p class="hint" id="hint">Drag to orbit · Scroll to zoom · Hover a slice</p>
+        </div>
+      </header>
+
+      <main class="stage" id="stage-wheel" data-stage="wheel">
+        <div
+          id="canvas-host"
+          role="img"
+          aria-label="Interactive three-dimensional TasteGraph pie chart. Use the legend to select registers."
+        ></div>
+
+        <aside class="panel" id="panel" aria-live="polite">
+          <div class="panel-inner" id="panel-empty">
+            <p class="panel-kicker">Explore</p>
+            <h2>Hover a slice</h2>
+            <p class="panel-body">
+              Each wedge is exact decision weight from TasteGraph. Lift a register to read what it
+              means and see real stills that embody it - each example links to the public X source.
+            </p>
+            <p class="north">
+              One signature object or moment. Register-true density. Zero effect soup. Graph 1.3.7
+              wheel + full ingest grid. Default slice: Myth-tech (sacred tech + Star Samurai).
+            </p>
+            <ul class="legend" id="legend"></ul>
+            <details class="sources-fold" id="all-sources-fold">
+              <summary>
+                All contributing sources
+                <span class="sources-count" id="all-sources-count"></span>
+              </summary>
+              <p class="sources-help">
+                Every public art, image, video, or craft post that informed this graph.
+                Featured stills also appear when you open a slice.
+              </p>
+              <ul class="sources-list" id="all-sources-list"></ul>
+            </details>
+            <p class="keys">Keys: <kbd>←</kbd> <kbd>→</kbd> cycle · <kbd>Esc</kbd> clear</p>
+          </div>
+
+          <div class="panel-inner is-hidden" id="panel-detail">
+            <div class="detail-head">
+              <span class="pct" id="d-pct"></span>
+              <div>
+                <p class="panel-kicker" id="d-kicker"></p>
+                <h2 id="d-title"></h2>
+              </div>
+            </div>
+            <p class="panel-body" id="d-body"></p>
+            <div class="meta-row">
+              <span class="chip" id="d-deg"></span>
+              <span class="chip" id="d-role"></span>
+            </div>
+            <p class="examples-label">Featured stills in this register</p>
+            <div class="gallery" id="d-gallery"></div>
+            <details class="sources-fold" id="reg-sources-fold">
+              <summary>
+                More sources for this register
+                <span class="sources-count" id="reg-sources-count"></span>
+              </summary>
+              <ul class="sources-list" id="reg-sources-list"></ul>
+            </details>
+            <p class="panel-note" id="d-note"></p>
+          </div>
+        </aside>
+      </main>
+
+      <section
+        class="stage-grid is-hidden"
+        id="stage-grid"
+        data-stage="grid"
+        hidden
+        aria-label="Ingested TasteGraph stills grid"
+      >
+        <div class="grid-toolbar">
+          <div class="grid-toolbar-text">
+            <p class="panel-kicker">Ingest archive</p>
+            <h2 class="grid-heading">Every still in the public graph</h2>
+            <p class="grid-sub" id="grid-sub">
+              Screenshots of public posts that informed TasteGraph. Click for lightbox; open Source for the post.
+            </p>
+          </div>
+          <div class="grid-toolbar-meta">
+            <span class="grid-count" id="grid-count"></span>
+            <div class="grid-filters" id="grid-filters" role="group" aria-label="Filter by register"></div>
+          </div>
+        </div>
+        <div class="ingest-grid" id="ingest-grid"></div>
+      </section>
+
+      <footer class="foot">
+        <span id="foot-primary">Exact arcs · sum 100% = 360°</span>
+        <a href="/wheel/contributing-sources.json">All source links (JSON)</a>
+        <span>Local-first · open source MIT</span>
+      </footer>
+    </div>
+  </body>
+</html>

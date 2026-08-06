@@ -1,0 +1,3420 @@
+{
+  "schema": "tastegraph-ingest-stills-v1",
+  "graph_version": "1.3.8",
+  "updated": "2026-08-07",
+  "policy": "Public-art stills only (screenshots of public X posts that informed TasteGraph). Credit + post URL when recoverable. No private paths.",
+  "count": 237,
+  "counts_by_batch": {
+    "love-2026-08-07-dump": 106,
+    "love-2026-08-06-dump": 24,
+    "love-2026-08-05-evening": 30,
+    "love-2026-08-05-kali": 16,
+    "love-2026-08-04-batch3": 42,
+    "love-2026-08-04-batch2": 11,
+    "love-2026-08-04": 8
+  },
+  "items": [
+    {
+      "id": "love-2026-08-07-dump/gregcatarino1-075398",
+      "src": "ingest/love-2026-08-07-dump/gregcatarino1-075398.jpg",
+      "title": "\"The Cottage\" Hannah Fulbright",
+      "credit": "@gregcatarino1",
+      "href": "https://x.com/gregcatarino1/status/2085346511123075398",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085346511123075398"
+    },
+    {
+      "id": "love-2026-08-07-dump/lettier-765860",
+      "src": "ingest/love-2026-08-07-dump/lettier-765860.jpg",
+      "title": "#b3d #blender Crystal Ball",
+      "credit": "@lettier",
+      "href": "https://x.com/lettier/status/2085479016555765860",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085479016555765860"
+    },
+    {
+      "id": "love-2026-08-07-dump/dangerslowcat-332906",
+      "src": "ingest/love-2026-08-07-dump/dangerslowcat-332906.jpg",
+      "title": "#pixelart",
+      "credit": "@DangerSlowCat",
+      "href": "https://x.com/DangerSlowCat/status/2085426401499332906",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085426401499332906"
+    },
+    {
+      "id": "love-2026-08-07-dump/vicardspixel-648809",
+      "src": "ingest/love-2026-08-07-dump/vicardspixel-648809.jpg",
+      "title": "#pixelart #ドット絵",
+      "credit": "@vicardspixel",
+      "href": "https://x.com/vicardspixel/status/2085713576652648809",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085713576652648809"
+    },
+    {
+      "id": "love-2026-08-07-dump/dnatsuuu-449567",
+      "src": "ingest/love-2026-08-07-dump/dnatsuuu-449567.jpg",
+      "title": "#web #webgl #threejs",
+      "credit": "@dnatsuuu",
+      "href": "https://x.com/dnatsuuu/status/2085293399163449567",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085293399163449567"
+    },
+    {
+      "id": "love-2026-08-07-dump/amirmushich-936476",
+      "src": "ingest/love-2026-08-07-dump/amirmushich-936476.jpg",
+      "title": "3D glass icons / GPT Image dir. [v05] 3-variable prompt system, turns any brand logo/icon into a...",
+      "credit": "@AmirMushich",
+      "href": "https://x.com/AmirMushich/status/2085413698990936476",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085413698990936476"
+    },
+    {
+      "id": "love-2026-08-07-dump/0xbcd_-379040",
+      "src": "ingest/love-2026-08-07-dump/0xbcd_-379040.jpg",
+      "title": "@0xbcd_ still",
+      "credit": "@0xbcd_",
+      "href": "https://x.com/0xbcd_/status/2084864222446379040",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2084864222446379040"
+    },
+    {
+      "id": "love-2026-08-07-dump/0xbcd_-509974",
+      "src": "ingest/love-2026-08-07-dump/0xbcd_-509974.jpg",
+      "title": "@0xbcd_ still",
+      "credit": "@0xbcd_",
+      "href": "https://x.com/0xbcd_/status/2085555024516509974",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085555024516509974"
+    },
+    {
+      "id": "love-2026-08-07-dump/ailantd-006595",
+      "src": "ingest/love-2026-08-07-dump/ailantd-006595.jpg",
+      "title": "@ailantd still",
+      "credit": "@ailantd",
+      "href": "https://x.com/ailantd/status/2085326551676006595",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085326551676006595"
+    },
+    {
+      "id": "love-2026-08-07-dump/ailantd-374565",
+      "src": "ingest/love-2026-08-07-dump/ailantd-374565.jpg",
+      "title": "@ailantd still",
+      "credit": "@ailantd",
+      "href": "https://x.com/ailantd/status/2085326599734374565",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085326599734374565"
+    },
+    {
+      "id": "love-2026-08-07-dump/babs69420-842966",
+      "src": "ingest/love-2026-08-07-dump/babs69420-842966.jpg",
+      "title": "@babs69420 still",
+      "credit": "@babs69420",
+      "href": "https://x.com/babs69420/status/2085142773271842966",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085142773271842966"
+    },
+    {
+      "id": "love-2026-08-07-dump/bluedreamvibes-554796",
+      "src": "ingest/love-2026-08-07-dump/bluedreamvibes-554796.jpg",
+      "title": "@bluedreamvibes still",
+      "credit": "@bluedreamvibes",
+      "href": "https://x.com/bluedreamvibes/status/2084949282927554796",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2084949282927554796"
+    },
+    {
+      "id": "love-2026-08-07-dump/bluedreamvibes-749618",
+      "src": "ingest/love-2026-08-07-dump/bluedreamvibes-749618.jpg",
+      "title": "@bluedreamvibes still",
+      "credit": "@bluedreamvibes",
+      "href": "https://x.com/bluedreamvibes/status/2084873785551749618",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2084873785551749618"
+    },
+    {
+      "id": "love-2026-08-07-dump/davidvnun-146758",
+      "src": "ingest/love-2026-08-07-dump/davidvnun-146758.jpg",
+      "title": "@davidvnun still",
+      "credit": "@davidvnun",
+      "href": "https://x.com/davidvnun/status/2085409096883146758",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085409096883146758"
+    },
+    {
+      "id": "love-2026-08-07-dump/denis_kalyadine-533914",
+      "src": "ingest/love-2026-08-07-dump/denis_kalyadine-533914.jpg",
+      "title": "@denis_kalyadine still",
+      "credit": "@denis_kalyadine",
+      "href": "https://x.com/denis_kalyadine/status/2085293299888533914",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085293299888533914"
+    },
+    {
+      "id": "love-2026-08-07-dump/drugondragon-768718",
+      "src": "ingest/love-2026-08-07-dump/drugondragon-768718.jpg",
+      "title": "@DRUGONDRAGON still",
+      "credit": "@DRUGONDRAGON",
+      "href": "https://x.com/DRUGONDRAGON/status/2085716119277768718",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085716119277768718"
+    },
+    {
+      "id": "love-2026-08-07-dump/galacticstones-420783",
+      "src": "ingest/love-2026-08-07-dump/galacticstones-420783.jpg",
+      "title": "@GalacticStones still",
+      "credit": "@GalacticStones",
+      "href": "https://x.com/GalacticStones/status/2085020952799420783",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085020952799420783"
+    },
+    {
+      "id": "love-2026-08-07-dump/galacticstones-868813",
+      "src": "ingest/love-2026-08-07-dump/galacticstones-868813.jpg",
+      "title": "@GalacticStones still",
+      "credit": "@GalacticStones",
+      "href": "https://x.com/GalacticStones/status/2085667014186868813",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085667014186868813"
+    },
+    {
+      "id": "love-2026-08-07-dump/gentleman_1965-236115",
+      "src": "ingest/love-2026-08-07-dump/gentleman_1965-236115.jpg",
+      "title": "@Gentleman_1965 still",
+      "credit": "@Gentleman_1965",
+      "href": "https://x.com/Gentleman_1965/status/2085413010286236115",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085413010286236115"
+    },
+    {
+      "id": "love-2026-08-07-dump/gentleman_1965-357513",
+      "src": "ingest/love-2026-08-07-dump/gentleman_1965-357513.jpg",
+      "title": "@Gentleman_1965 still",
+      "credit": "@Gentleman_1965",
+      "href": "https://x.com/Gentleman_1965/status/2085414171156357513",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085414171156357513"
+    },
+    {
+      "id": "love-2026-08-07-dump/gentleman_1965-382352",
+      "src": "ingest/love-2026-08-07-dump/gentleman_1965-382352.jpg",
+      "title": "@Gentleman_1965 still",
+      "credit": "@Gentleman_1965",
+      "href": "https://x.com/Gentleman_1965/status/2085412041754382352",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085412041754382352"
+    },
+    {
+      "id": "love-2026-08-07-dump/gentleman_1965-401112",
+      "src": "ingest/love-2026-08-07-dump/gentleman_1965-401112.jpg",
+      "title": "@Gentleman_1965 still",
+      "credit": "@Gentleman_1965",
+      "href": "https://x.com/Gentleman_1965/status/2085414257978401112",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085414257978401112"
+    },
+    {
+      "id": "love-2026-08-07-dump/gentleman_1965-922801",
+      "src": "ingest/love-2026-08-07-dump/gentleman_1965-922801.jpg",
+      "title": "@Gentleman_1965 still",
+      "credit": "@Gentleman_1965",
+      "href": "https://x.com/Gentleman_1965/status/2085412162864922801",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085412162864922801"
+    },
+    {
+      "id": "love-2026-08-07-dump/grailsart-142149",
+      "src": "ingest/love-2026-08-07-dump/grailsart-142149.jpg",
+      "title": "@grailsart still",
+      "credit": "@grailsart",
+      "href": "https://x.com/grailsart/status/2085068878481142149",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085068878481142149"
+    },
+    {
+      "id": "love-2026-08-07-dump/gregcatarino1-017977",
+      "src": "ingest/love-2026-08-07-dump/gregcatarino1-017977.jpg",
+      "title": "@gregcatarino1 still",
+      "credit": "@gregcatarino1",
+      "href": "https://x.com/gregcatarino1/status/2085446428634017977",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085446428634017977"
+    },
+    {
+      "id": "love-2026-08-07-dump/hieisflame-102047",
+      "src": "ingest/love-2026-08-07-dump/hieisflame-102047.jpg",
+      "title": "@HieisFlame still",
+      "credit": "@HieisFlame",
+      "href": "https://x.com/HieisFlame/status/2085035768058102047",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085035768058102047"
+    },
+    {
+      "id": "love-2026-08-07-dump/glennhasabeard-153786",
+      "src": "ingest/love-2026-08-07-dump/glennhasabeard-153786.jpg",
+      "title": "@icreatelife",
+      "credit": "@GlennHasABeard",
+      "href": "https://x.com/GlennHasABeard/status/2085371618898153786",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085371618898153786"
+    },
+    {
+      "id": "love-2026-08-07-dump/julianc_ai2-179630",
+      "src": "ingest/love-2026-08-07-dump/julianc_ai2-179630.jpg",
+      "title": "@Julianc_AI2 still",
+      "credit": "@Julianc_AI2",
+      "href": "https://x.com/Julianc_AI2/status/2085350124218179630",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085350124218179630"
+    },
+    {
+      "id": "love-2026-08-07-dump/kawanabehiroki-058618",
+      "src": "ingest/love-2026-08-07-dump/kawanabehiroki-058618.jpg",
+      "title": "@kawanabehiroki still",
+      "credit": "@kawanabehiroki",
+      "href": "https://x.com/kawanabehiroki/status/2085506290693058618",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085506290693058618"
+    },
+    {
+      "id": "love-2026-08-07-dump/kiddiechronicle-518540",
+      "src": "ingest/love-2026-08-07-dump/kiddiechronicle-518540.jpg",
+      "title": "@KiddieChronicle still",
+      "credit": "@KiddieChronicle",
+      "href": "https://x.com/KiddieChronicle/status/2085535945504518540",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "music",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085535945504518540"
+    },
+    {
+      "id": "love-2026-08-07-dump/kiddiechronicle-950145",
+      "src": "ingest/love-2026-08-07-dump/kiddiechronicle-950145.jpg",
+      "title": "@KiddieChronicle still",
+      "credit": "@KiddieChronicle",
+      "href": "https://x.com/KiddieChronicle/status/2085167124943950145",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085167124943950145"
+    },
+    {
+      "id": "love-2026-08-07-dump/nolon69-813098",
+      "src": "ingest/love-2026-08-07-dump/nolon69-813098.jpg",
+      "title": "@nolon69 still",
+      "credit": "@nolon69",
+      "href": "https://x.com/nolon69/status/2085498253508813098",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085498253508813098"
+    },
+    {
+      "id": "love-2026-08-07-dump/rhapsodyandsoul-696053",
+      "src": "ingest/love-2026-08-07-dump/rhapsodyandsoul-696053.jpg",
+      "title": "@RhapsodyandSoul still",
+      "credit": "@RhapsodyandSoul",
+      "href": "https://x.com/RhapsodyandSoul/status/2085517527631696053",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085517527631696053"
+    },
+    {
+      "id": "love-2026-08-07-dump/untitledfold_er-448928",
+      "src": "ingest/love-2026-08-07-dump/untitledfold_er-448928.jpg",
+      "title": "@untitledfold_er still",
+      "credit": "@untitledfold_er",
+      "href": "https://x.com/untitledfold_er/status/2084903593824448928",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2084903593824448928"
+    },
+    {
+      "id": "love-2026-08-07-dump/vicardspixel-202878",
+      "src": "ingest/love-2026-08-07-dump/vicardspixel-202878.jpg",
+      "title": "@vicardspixel still",
+      "credit": "@vicardspixel",
+      "href": "https://x.com/vicardspixel/status/2085100637302202878",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085100637302202878"
+    },
+    {
+      "id": "love-2026-08-07-dump/koldo2k-342752",
+      "src": "ingest/love-2026-08-07-dump/koldo2k-342752.jpg",
+      "title": "A morning coffee break ☕️",
+      "credit": "@koldo2k",
+      "href": "https://x.com/koldo2k/status/2085603091089342752",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085603091089342752"
+    },
+    {
+      "id": "love-2026-08-07-dump/gitana1369877-820251",
+      "src": "ingest/love-2026-08-07-dump/gitana1369877-820251.jpg",
+      "title": "Afternoon mood",
+      "credit": "@Gitana1369877",
+      "href": "https://x.com/Gitana1369877/status/2085410113200820251",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085410113200820251"
+    },
+    {
+      "id": "love-2026-08-07-dump/matterafactart-155848",
+      "src": "ingest/love-2026-08-07-dump/matterafactart-155848.jpg",
+      "title": "Afternoon, everybody.",
+      "credit": "@matterAfactART",
+      "href": "https://x.com/matterAfactART/status/2085054369792155848",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085054369792155848"
+    },
+    {
+      "id": "love-2026-08-07-dump/galacticstones-151305",
+      "src": "ingest/love-2026-08-07-dump/galacticstones-151305.jpg",
+      "title": "Alone at last...",
+      "credit": "@GalacticStones",
+      "href": "https://x.com/GalacticStones/status/2085102066788151305",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085102066788151305"
+    },
+    {
+      "id": "love-2026-08-07-dump/scifiarchives-336198",
+      "src": "ingest/love-2026-08-07-dump/scifiarchives-336198.jpg",
+      "title": "Art by Pascal Blanché.",
+      "credit": "@SciFiArchives",
+      "href": "https://x.com/SciFiArchives/status/2085470467314336198",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085470467314336198"
+    },
+    {
+      "id": "love-2026-08-07-dump/dashcammusic-492414",
+      "src": "ingest/love-2026-08-07-dump/dashcammusic-492414.jpg",
+      "title": "balance",
+      "credit": "@dashcammusic",
+      "href": "https://x.com/dashcammusic/status/2084816392134492414",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2084816392134492414"
+    },
+    {
+      "id": "love-2026-08-07-dump/_francis_co_art-477862",
+      "src": "ingest/love-2026-08-07-dump/_francis_co_art-477862.jpg",
+      "title": "Before vs after shadows",
+      "credit": "@_Francis_co_Art",
+      "href": "https://x.com/_Francis_co_Art/status/2085368479356477862",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085368479356477862"
+    },
+    {
+      "id": "love-2026-08-07-dump/rikoostenbroek-920363",
+      "src": "ingest/love-2026-08-07-dump/rikoostenbroek-920363.jpg",
+      "title": "bloom",
+      "credit": "@RikOostenbroek",
+      "href": "https://x.com/RikOostenbroek/status/2085289212148920363",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085289212148920363"
+    },
+    {
+      "id": "love-2026-08-07-dump/0xbcd_-781886",
+      "src": "ingest/love-2026-08-07-dump/0xbcd_-781886.jpg",
+      "title": "by Chris Connolly",
+      "credit": "@0xbcd_",
+      "href": "https://x.com/0xbcd_/status/2085544203002781886",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085544203002781886"
+    },
+    {
+      "id": "love-2026-08-07-dump/ahtasham_design-003801",
+      "src": "ingest/love-2026-08-07-dump/ahtasham_design-003801.jpg",
+      "title": "Card design exploration.",
+      "credit": "@Ahtasham_Design",
+      "href": "https://x.com/Ahtasham_Design/status/2085324547059003801",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085324547059003801"
+    },
+    {
+      "id": "love-2026-08-07-dump/sinusoidalsnail-630759",
+      "src": "ingest/love-2026-08-07-dump/sinusoidalsnail-630759.jpg",
+      "title": "CAT SZN",
+      "credit": "@sinusoidalsnail",
+      "href": "https://x.com/sinusoidalsnail/status/2085365072889630759",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085365072889630759"
+    },
+    {
+      "id": "love-2026-08-07-dump/ranakabiria-931844",
+      "src": "ingest/love-2026-08-07-dump/ranakabiria-931844.jpg",
+      "title": "Claude + labs Google = 🤯",
+      "credit": "@ranakabiria",
+      "href": "https://x.com/ranakabiria/status/2085650948932931844",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085650948932931844"
+    },
+    {
+      "id": "love-2026-08-07-dump/pmopus-946159",
+      "src": "ingest/love-2026-08-07-dump/pmopus-946159.jpg",
+      "title": "cloud study #pixelart",
+      "credit": "@pmopus",
+      "href": "https://x.com/pmopus/status/2085238505764946159",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085238505764946159"
+    },
+    {
+      "id": "love-2026-08-07-dump/aleksksaa-558384",
+      "src": "ingest/love-2026-08-07-dump/aleksksaa-558384.jpg",
+      "title": "clouds weren't enough, some days need the storm ⛈️",
+      "credit": "@aleksksaa",
+      "href": "https://x.com/aleksksaa/status/2085014956869558384",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085014956869558384"
+    },
+    {
+      "id": "love-2026-08-07-dump/ultima1138-668547",
+      "src": "ingest/love-2026-08-07-dump/ultima1138-668547.jpg",
+      "title": "D O M",
+      "credit": "@Ultima1138",
+      "href": "https://x.com/Ultima1138/status/2085521501688668547",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085521501688668547"
+    },
+    {
+      "id": "love-2026-08-07-dump/snowelk_-726496",
+      "src": "ingest/love-2026-08-07-dump/snowelk_-726496.jpg",
+      "title": "Day 32 Color",
+      "credit": "@SnowElk_",
+      "href": "https://x.com/SnowElk_/status/2085259703756726496",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085259703756726496"
+    },
+    {
+      "id": "love-2026-08-07-dump/henryc30190152-169562",
+      "src": "ingest/love-2026-08-07-dump/henryc30190152-169562.jpg",
+      "title": "DAY31~",
+      "credit": "@Henryc30190152",
+      "href": "https://x.com/Henryc30190152/status/2084998676058169562",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2084998676058169562"
+    },
+    {
+      "id": "love-2026-08-07-dump/robinspells-134573",
+      "src": "ingest/love-2026-08-07-dump/robinspells-134573.jpg",
+      "title": "exploring some new styles of design",
+      "credit": "@robinspells",
+      "href": "https://x.com/robinspells/status/2084661698213134573",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2084661698213134573"
+    },
+    {
+      "id": "love-2026-08-07-dump/ultima1138-746068",
+      "src": "ingest/love-2026-08-07-dump/ultima1138-746068.jpg",
+      "title": "F L Ö T E",
+      "credit": "@Ultima1138",
+      "href": "https://x.com/Ultima1138/status/2085145952952746068",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085145952952746068"
+    },
+    {
+      "id": "love-2026-08-07-dump/taylor_sntx-263890",
+      "src": "ingest/love-2026-08-07-dump/taylor_sntx-263890.jpg",
+      "title": "finger painting in the browser",
+      "credit": "@taylor_sntx",
+      "href": "https://x.com/taylor_sntx/status/2085466478703263890",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085466478703263890"
+    },
+    {
+      "id": "love-2026-08-07-dump/97_eii-329616",
+      "src": "ingest/love-2026-08-07-dump/97_eii-329616.jpg",
+      "title": "from my old studies",
+      "credit": "@97_eii",
+      "href": "https://x.com/97_eii/status/2085055267268329616",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085055267268329616"
+    },
+    {
+      "id": "love-2026-08-07-dump/cozomomedici-091476",
+      "src": "ingest/love-2026-08-07-dump/cozomomedici-091476.jpg",
+      "title": "Gm SURROUNDED BY COLOR by Beeple",
+      "credit": "@CozomoMedici",
+      "href": "https://x.com/CozomoMedici/status/2084993928005091476",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2084993928005091476"
+    },
+    {
+      "id": "love-2026-08-07-dump/shillandia-638479",
+      "src": "ingest/love-2026-08-07-dump/shillandia-638479.jpg",
+      "title": "GM ☕ Technical difficulties By @kiramotosan",
+      "credit": "@shillandia",
+      "href": "https://x.com/shillandia/status/2085291438401638479",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085291438401638479"
+    },
+    {
+      "id": "love-2026-08-07-dump/goo_vision-277778",
+      "src": "ingest/love-2026-08-07-dump/goo_vision-277778.jpg",
+      "title": "Gm ☕️",
+      "credit": "@goo_vision",
+      "href": "https://x.com/goo_vision/status/2085666963301277778",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085666963301277778"
+    },
+    {
+      "id": "love-2026-08-07-dump/_iraconda-014210",
+      "src": "ingest/love-2026-08-07-dump/_iraconda-014210.jpg",
+      "title": "GN _Lorem Ipsum",
+      "credit": "@_Iraconda",
+      "href": "https://x.com/_Iraconda/status/2085090347282014210",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085090347282014210"
+    },
+    {
+      "id": "love-2026-08-07-dump/kak_dc-931493",
+      "src": "ingest/love-2026-08-07-dump/kak_dc-931493.jpg",
+      "title": "Good morning!",
+      "credit": "@kak_dc",
+      "href": "https://x.com/kak_dc/status/2084952680623931493",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2084952680623931493"
+    },
+    {
+      "id": "love-2026-08-07-dump/techniacus-140640",
+      "src": "ingest/love-2026-08-07-dump/techniacus-140640.jpg",
+      "title": "Good morning, the only way out is through",
+      "credit": "@Techniacus",
+      "href": "https://x.com/Techniacus/status/2085340179582140640",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085340179582140640"
+    },
+    {
+      "id": "love-2026-08-07-dump/dustfinger2077-414706",
+      "src": "ingest/love-2026-08-07-dump/dustfinger2077-414706.jpg",
+      "title": "Happy Friday ❄️",
+      "credit": "@Dustfinger2077",
+      "href": "https://x.com/Dustfinger2077/status/2085635298516414706",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085635298516414706"
+    },
+    {
+      "id": "love-2026-08-07-dump/key_vfx-089665",
+      "src": "ingest/love-2026-08-07-dump/key_vfx-089665.jpg",
+      "title": "Help me name this thing",
+      "credit": "@key_vfx",
+      "href": "https://x.com/key_vfx/status/2085431117214089665",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085431117214089665"
+    },
+    {
+      "id": "love-2026-08-07-dump/unseenai-978556",
+      "src": "ingest/love-2026-08-07-dump/unseenai-978556.jpg",
+      "title": "hunting time --exp 10 --raw --sref 2355528303 4090508490 1860020005 --profile --sw 800 --stylize...",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085424227016978556",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085424227016978556"
+    },
+    {
+      "id": "love-2026-08-07-dump/aestheticsguyy-662987",
+      "src": "ingest/love-2026-08-07-dump/aestheticsguyy-662987.jpg",
+      "title": "I dare you to beat my wallpaper",
+      "credit": "@aestheticsguyy",
+      "href": "https://x.com/aestheticsguyy/status/2085489348531662987",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085489348531662987"
+    },
+    {
+      "id": "love-2026-08-07-dump/beholdthe84-654142",
+      "src": "ingest/love-2026-08-07-dump/beholdthe84-654142.jpg",
+      "title": "Industrial Overload",
+      "credit": "@beholdthe84",
+      "href": "https://x.com/beholdthe84/status/2085509285635654142",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085509285635654142"
+    },
+    {
+      "id": "love-2026-08-07-dump/_iraconda-863305",
+      "src": "ingest/love-2026-08-07-dump/_iraconda-863305.jpg",
+      "title": "L'olfatto è il senso della memoria. _Essenza",
+      "credit": "@_Iraconda",
+      "href": "https://x.com/_Iraconda/status/2085029991255863305",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085029991255863305"
+    },
+    {
+      "id": "love-2026-08-07-dump/_sameerrr0-824403",
+      "src": "ingest/love-2026-08-07-dump/_sameerrr0-824403.jpg",
+      "title": "Looking for founders building products people will remember. 📩 Book a call from the pinned comment.",
+      "credit": "@_sameerrr0",
+      "href": "https://x.com/_sameerrr0/status/2085569117218824403",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085569117218824403"
+    },
+    {
+      "id": "love-2026-08-07-dump/dqnamo-300686",
+      "src": "ingest/love-2026-08-07-dump/dqnamo-300686.jpg",
+      "title": "Make your audio player a cassette",
+      "credit": "@dqnamo",
+      "href": "https://x.com/dqnamo/status/2085010437658300686",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085010437658300686"
+    },
+    {
+      "id": "love-2026-08-07-dump/vanschneider-393324",
+      "src": "ingest/love-2026-08-07-dump/vanschneider-393324.jpg",
+      "title": "mind your own business",
+      "credit": "@vanschneider",
+      "href": "https://x.com/vanschneider/status/2085471014436393324",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085471014436393324"
+    },
+    {
+      "id": "love-2026-08-07-dump/corpsekings-093896",
+      "src": "ingest/love-2026-08-07-dump/corpsekings-093896.jpg",
+      "title": "More games should have gelatinous cubes in them.",
+      "credit": "@CorpseKings",
+      "href": "https://x.com/CorpseKings/status/2085433223283093896",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085433223283093896"
+    },
+    {
+      "id": "love-2026-08-07-dump/gentleman_1965-028777",
+      "src": "ingest/love-2026-08-07-dump/gentleman_1965-028777.jpg",
+      "title": "Morning",
+      "credit": "@Gentleman_1965",
+      "href": "https://x.com/Gentleman_1965/status/2084930294059028777",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2084930294059028777"
+    },
+    {
+      "id": "love-2026-08-07-dump/hannahlock-369541",
+      "src": "ingest/love-2026-08-07-dump/hannahlock-369541.jpg",
+      "title": "Morning Glory 🌿",
+      "credit": "@hannahlock",
+      "href": "https://x.com/hannahlock/status/2085011156813369541",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085011156813369541"
+    },
+    {
+      "id": "love-2026-08-07-dump/ajdotgif-944701",
+      "src": "ingest/love-2026-08-07-dump/ajdotgif-944701.jpg",
+      "title": "my fake plastic love",
+      "credit": "@ajdotgif",
+      "href": "https://x.com/ajdotgif/status/2085432091374944701",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085432091374944701"
+    },
+    {
+      "id": "love-2026-08-07-dump/jimmusilpainter-195032",
+      "src": "ingest/love-2026-08-07-dump/jimmusilpainter-195032.jpg",
+      "title": "My painting BACKYARD TULIPS",
+      "credit": "@JimMusilPainter",
+      "href": "https://x.com/JimMusilPainter/status/2084737038759195032",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2084737038759195032"
+    },
+    {
+      "id": "love-2026-08-07-dump/jimmusilpainter-909132",
+      "src": "ingest/love-2026-08-07-dump/jimmusilpainter-909132.jpg",
+      "title": "My painting COASTAL POPPIES",
+      "credit": "@JimMusilPainter",
+      "href": "https://x.com/JimMusilPainter/status/2085352939044909132",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085352939044909132"
+    },
+    {
+      "id": "love-2026-08-07-dump/jimmusilpainter-316336",
+      "src": "ingest/love-2026-08-07-dump/jimmusilpainter-316336.jpg",
+      "title": "My painting GRASSY LAKE",
+      "credit": "@JimMusilPainter",
+      "href": "https://x.com/JimMusilPainter/status/2082564841265316336",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2082564841265316336"
+    },
+    {
+      "id": "love-2026-08-07-dump/jimmusilpainter-533158",
+      "src": "ingest/love-2026-08-07-dump/jimmusilpainter-533158.jpg",
+      "title": "My painting SUPERSTITION MOUNTAINS",
+      "credit": "@JimMusilPainter",
+      "href": "https://x.com/JimMusilPainter/status/2085462250773533158",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085462250773533158"
+    },
+    {
+      "id": "love-2026-08-07-dump/threejsassets-945112",
+      "src": "ingest/love-2026-08-07-dump/threejsassets-945112.jpg",
+      "title": "New FREE Three.js Assets added twice a week! 🫶",
+      "credit": "@threejsassets",
+      "href": "https://x.com/threejsassets/status/2085331348105945112",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085331348105945112"
+    },
+    {
+      "id": "love-2026-08-07-dump/solisolsoli-158833",
+      "src": "ingest/love-2026-08-07-dump/solisolsoli-158833.jpg",
+      "title": "New York City Evening by Stefan Bleekrode",
+      "credit": "@solisolsoli",
+      "href": "https://x.com/solisolsoli/status/2085085933314158833",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085085933314158833"
+    },
+    {
+      "id": "love-2026-08-07-dump/kak_dc-138403",
+      "src": "ingest/love-2026-08-07-dump/kak_dc-138403.jpg",
+      "title": "Night!",
+      "credit": "@kak_dc",
+      "href": "https://x.com/kak_dc/status/2085564319006138403",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085564319006138403"
+    },
+    {
+      "id": "love-2026-08-07-dump/palekirill-959261",
+      "src": "ingest/love-2026-08-07-dump/palekirill-959261.jpg",
+      "title": "nothing special but i feel something",
+      "credit": "@palekirill",
+      "href": "https://x.com/palekirill/status/2085389543729959261",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085389543729959261"
+    },
+    {
+      "id": "love-2026-08-07-dump/adambartas-956040",
+      "src": "ingest/love-2026-08-07-dump/adambartas-956040.jpg",
+      "title": "One of my favorite effects we made for a client Here is how we achieved it in 3 steps 🧵",
+      "credit": "@AdamBartas",
+      "href": "https://x.com/AdamBartas/status/2085350269722956040",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085350269722956040"
+    },
+    {
+      "id": "love-2026-08-07-dump/alisaqqt-938124",
+      "src": "ingest/love-2026-08-07-dump/alisaqqt-938124.jpg",
+      "title": "One of the coolest AI animations I've seen. Building this workflow now.",
+      "credit": "@alisaqqt",
+      "href": "https://x.com/alisaqqt/status/2085385012715938124",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085385012715938124"
+    },
+    {
+      "id": "love-2026-08-07-dump/owlcean11-467863",
+      "src": "ingest/love-2026-08-07-dump/owlcean11-467863.jpg",
+      "title": "out of battery.",
+      "credit": "@owlcean11",
+      "href": "https://x.com/owlcean11/status/2085407764692467863",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085407764692467863"
+    },
+    {
+      "id": "love-2026-08-07-dump/nitishkmrk-407932",
+      "src": "ingest/love-2026-08-07-dump/nitishkmrk-407932.jpg",
+      "title": "segmented expansion interaction ⎯⟡°",
+      "credit": "@nitishkmrk",
+      "href": "https://x.com/nitishkmrk/status/2085659988291407932",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085659988291407932"
+    },
+    {
+      "id": "love-2026-08-07-dump/jh3yy-665023",
+      "src": "ingest/love-2026-08-07-dump/jh3yy-665023.jpg",
+      "title": "spritesheets are, and always will be, a fun trick! ⚡ translate with css based on pointer position...",
+      "credit": "@jh3yy",
+      "href": "https://x.com/jh3yy/status/2085007349232665023",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085007349232665023"
+    },
+    {
+      "id": "love-2026-08-07-dump/the_gpc_-285690",
+      "src": "ingest/love-2026-08-07-dump/the_gpc_-285690.jpg",
+      "title": "Staircase to heaven 📸 By: obediah123",
+      "credit": "@the_gpc_",
+      "href": "https://x.com/the_gpc_/status/2085265114249285690",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085265114249285690"
+    },
+    {
+      "id": "love-2026-08-07-dump/creativedash-337194",
+      "src": "ingest/love-2026-08-07-dump/creativedash-337194.jpg",
+      "title": "Sticky just got a pretty big upgrade ✨ You can now export images and 60fps video, use your own cu...",
+      "credit": "@creativedash",
+      "href": "https://x.com/creativedash/status/2085563430363337194",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085563430363337194"
+    },
+    {
+      "id": "love-2026-08-07-dump/mendezmendez-442618",
+      "src": "ingest/love-2026-08-07-dump/mendezmendez-442618.jpg",
+      "title": "tear me apart",
+      "credit": "@mendezmendez",
+      "href": "https://x.com/mendezmendez/status/2085503698105442618",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085503698105442618"
+    },
+    {
+      "id": "love-2026-08-07-dump/iamlaurael-010930",
+      "src": "ingest/love-2026-08-07-dump/iamlaurael-010930.jpg",
+      "title": "The Fisherman, 2023",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085524801788010930",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085524801788010930"
+    },
+    {
+      "id": "love-2026-08-07-dump/julianc_ai2-861107",
+      "src": "ingest/love-2026-08-07-dump/julianc_ai2-861107.jpg",
+      "title": "The Place - Load in 4k",
+      "credit": "@Julianc_AI2",
+      "href": "https://x.com/Julianc_AI2/status/2085496971284861107",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085496971284861107"
+    },
+    {
+      "id": "love-2026-08-07-dump/deltasauce-060408",
+      "src": "ingest/love-2026-08-07-dump/deltasauce-060408.jpg",
+      "title": "There are no backup plans. And this is the Last Selfie on a Trinitron.",
+      "credit": "@deltasauce",
+      "href": "https://x.com/deltasauce/status/2085119214424060408",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085119214424060408"
+    },
+    {
+      "id": "love-2026-08-07-dump/julianc_ai2-893646",
+      "src": "ingest/love-2026-08-07-dump/julianc_ai2-893646.jpg",
+      "title": "These hit different.",
+      "credit": "@Julianc_AI2",
+      "href": "https://x.com/Julianc_AI2/status/2085539213596893646",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085539213596893646"
+    },
+    {
+      "id": "love-2026-08-07-dump/shariar_design-626297",
+      "src": "ingest/love-2026-08-07-dump/shariar_design-626297.jpg",
+      "title": "Toggle on/off 👀",
+      "credit": "@shariar_design",
+      "href": "https://x.com/shariar_design/status/2085653747955626297",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085653747955626297"
+    },
+    {
+      "id": "love-2026-08-07-dump/aivickai-930991",
+      "src": "ingest/love-2026-08-07-dump/aivickai-930991.jpg",
+      "title": "Turn off the lights. 💡",
+      "credit": "@AiVickai",
+      "href": "https://x.com/AiVickai/status/2085571216752930991",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085571216752930991"
+    },
+    {
+      "id": "love-2026-08-07-dump/julianc_ai2-870588",
+      "src": "ingest/love-2026-08-07-dump/julianc_ai2-870588.jpg",
+      "title": "Where I work from",
+      "credit": "@Julianc_AI2",
+      "href": "https://x.com/Julianc_AI2/status/2085136101358870588",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085136101358870588"
+    },
+    {
+      "id": "love-2026-08-07-dump/uczine-552350",
+      "src": "ingest/love-2026-08-07-dump/uczine-552350.jpg",
+      "title": "who controls the stream",
+      "credit": "@uczine",
+      "href": "https://x.com/uczine/status/2085063721630552350",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085063721630552350"
+    },
+    {
+      "id": "love-2026-08-07-dump/ingi_erlingsson-277311",
+      "src": "ingest/love-2026-08-07-dump/ingi_erlingsson-277311.jpg",
+      "title": "Who invited the AGI?",
+      "credit": "@ingi_erlingsson",
+      "href": "https://x.com/ingi_erlingsson/status/2085157200159277311",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085157200159277311"
+    },
+    {
+      "id": "love-2026-08-07-dump/nexus_to_nova-935106",
+      "src": "ingest/love-2026-08-07-dump/nexus_to_nova-935106.jpg",
+      "title": "Who wants to raid the X algorithm with me today?",
+      "credit": "@NEXUS_TO_NOVA",
+      "href": "https://x.com/NEXUS_TO_NOVA/status/2085420563497935106",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085420563497935106"
+    },
+    {
+      "id": "love-2026-08-07-dump/muovata-151991",
+      "src": "ingest/love-2026-08-07-dump/muovata-151991.jpg",
+      "title": "your shift ran late",
+      "credit": "@muovata",
+      "href": "https://x.com/muovata/status/2085473208640151991",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "fashion",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085473208640151991"
+    },
+    {
+      "id": "love-2026-08-07-dump/recgame_ra-128291",
+      "src": "ingest/love-2026-08-07-dump/recgame_ra-128291.jpg",
+      "title": "【モバイルGPUでこれが動く】 水面を漂うボールを追いながら流体をリアルタイム60fpsでレイトレーシングした映像です。 潜水した水中視点への切り替わりもあり、 内部反射や流体の深さまで再現され...",
+      "credit": "@RecGame_RA",
+      "href": "https://x.com/RecGame_RA/status/2085319980464128291",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2085319980464128291"
+    },
+    {
+      "id": "love-2026-08-07-dump/sanjoh253871164-365964",
+      "src": "ingest/love-2026-08-07-dump/sanjoh253871164-365964.jpg",
+      "title": "🏚️廃墟",
+      "credit": "@Sanjoh253871164",
+      "href": "https://x.com/Sanjoh253871164/status/2085123687607365964",
+      "kind": "image",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085123687607365964"
+    },
+    {
+      "id": "love-2026-08-07-dump/ingi_erlingsson-711909",
+      "src": "ingest/love-2026-08-07-dump/ingi_erlingsson-711909.jpg",
+      "title": "📹",
+      "credit": "@ingi_erlingsson",
+      "href": "https://x.com/ingi_erlingsson/status/2085544747586711909",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": "2085544747586711909"
+    },
+    {
+      "id": "love-2026-08-07-dump/ojovivomotion-972893",
+      "src": "ingest/love-2026-08-07-dump/ojovivomotion-972893.jpg",
+      "title": "🔷",
+      "credit": "@ojovivoMotion",
+      "href": "https://x.com/ojovivoMotion/status/2085335830667972893",
+      "kind": "video",
+      "batch": "love-2026-08-07-dump",
+      "registers": [
+        "motion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2085335830667972893"
+    },
+    {
+      "id": "love-2026-08-06-dump/skitchism-321963",
+      "src": "ingest/love-2026-08-06-dump/skitchism-321963.jpg",
+      "title": "After school SR mini series - story beat as frame",
+      "credit": "@skitchism",
+      "href": "https://x.com/skitchism/status/2085255616231321963",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "motion",
+        "music",
+        "sketch"
+      ],
+      "featured": true,
+      "post_id": "2085255616231321963"
+    },
+    {
+      "id": "love-2026-08-06-dump/cromsovertures-753121",
+      "src": "ingest/love-2026-08-06-dump/cromsovertures-753121.jpg",
+      "title": "Dark fantasy depth - invitation into the deep",
+      "credit": "@cromsovertures",
+      "href": "https://x.com/cromsovertures/status/2085288481601753121",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085288481601753121"
+    },
+    {
+      "id": "love-2026-08-06-dump/booterart-169809",
+      "src": "ingest/love-2026-08-06-dump/booterart-169809.jpg",
+      "title": "From above - angelic overhead atmosphere pack",
+      "credit": "@booterart",
+      "href": "https://x.com/booterart/status/2085452684598169809",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": true,
+      "post_id": "2085452684598169809"
+    },
+    {
+      "id": "love-2026-08-06-dump/drugondragon-428638",
+      "src": "ingest/love-2026-08-06-dump/drugondragon-428638.jpg",
+      "title": "Glitch noise pop figure - loud art planet only",
+      "credit": "@DRUGONDRAGON",
+      "href": "https://x.com/DRUGONDRAGON/status/2085346561119428638",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": true,
+      "post_id": "2085346561119428638"
+    },
+    {
+      "id": "love-2026-08-06-dump/kak_dc-564801",
+      "src": "ingest/love-2026-08-06-dump/kak_dc-564801.jpg",
+      "title": "GM surreal morning still - atmosphere as greeting",
+      "credit": "@kak_dc",
+      "href": "https://x.com/kak_dc/status/2085320562654564801",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": true,
+      "post_id": "2085320562654564801"
+    },
+    {
+      "id": "love-2026-08-06-dump/chxrxg-901778",
+      "src": "ingest/love-2026-08-06-dump/chxrxg-901778.jpg",
+      "title": "Hero explorations with unused illustrations",
+      "credit": "@chxrxg",
+      "href": "https://x.com/chxrxg/status/2085350177158901778",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": "2085350177158901778"
+    },
+    {
+      "id": "love-2026-08-06-dump/afnanfatimas-098182",
+      "src": "ingest/love-2026-08-06-dump/afnanfatimas-098182.jpg",
+      "title": "Hero section for AI agencies, SaaS, and startups",
+      "credit": "@AfnanFatimas",
+      "href": "https://x.com/AfnanFatimas/status/2084996341953098182",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": "2084996341953098182"
+    },
+    {
+      "id": "love-2026-08-06-dump/houseofuday_-801705",
+      "src": "ingest/love-2026-08-06-dump/houseofuday_-801705.jpg",
+      "title": "High-signal AI world still - research gravity",
+      "credit": "@houseofuday_",
+      "href": "https://x.com/houseofuday_/status/2085363939672801705",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085363939672801705"
+    },
+    {
+      "id": "love-2026-08-06-dump/galacticstones-464155",
+      "src": "ingest/love-2026-08-06-dump/galacticstones-464155.jpg",
+      "title": "Megalithic mass-in-space - object as ultimate luxury",
+      "credit": "@GalacticStones",
+      "href": "https://x.com/GalacticStones/status/2085378752830464155",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085378752830464155"
+    },
+    {
+      "id": "love-2026-08-06-dump/sergeantsref-695843",
+      "src": "ingest/love-2026-08-06-dump/sergeantsref-695843.jpg",
+      "title": "Midjourney sref figure pack - wash and hand feel",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": true,
+      "post_id": "2085490096648695843"
+    },
+    {
+      "id": "love-2026-08-06-dump/ovolosin82152-064259",
+      "src": "ingest/love-2026-08-06-dump/ovolosin82152-064259.jpg",
+      "title": "Noctura style pack - brand system as sealed craft",
+      "credit": "@OVolosin82152",
+      "href": "https://x.com/OVolosin82152/status/2085444030893064259",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "defensive",
+        "pro",
+        "sketch"
+      ],
+      "featured": true,
+      "post_id": "2085444030893064259"
+    },
+    {
+      "id": "love-2026-08-06-dump/delahuntagram-402450",
+      "src": "ingest/love-2026-08-06-dump/delahuntagram-402450.jpg",
+      "title": "Package icon - product signal without noise",
+      "credit": "@Delahuntagram",
+      "href": "https://x.com/Delahuntagram/status/2085293552553402450",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "defensive",
+        "myth",
+        "pro",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085293552553402450"
+    },
+    {
+      "id": "love-2026-08-06-dump/iamlaurael-099941",
+      "src": "ingest/love-2026-08-06-dump/iamlaurael-099941.jpg",
+      "title": "Physical art - gothic fairy crows, vines, blue ribbons",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "fashion",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085396076933099941"
+    },
+    {
+      "id": "love-2026-08-06-dump/elmetallico1-282186",
+      "src": "ingest/love-2026-08-06-dump/elmetallico1-282186.jpg",
+      "title": "Pixel art commission board - handmade grid craft",
+      "credit": "@ElMetallico1",
+      "href": "https://x.com/ElMetallico1/status/2085272074881282186",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "sketch"
+      ],
+      "featured": true,
+      "post_id": "2085272074881282186"
+    },
+    {
+      "id": "love-2026-08-06-dump/rare_jpg-992306",
+      "src": "ingest/love-2026-08-06-dump/rare_jpg-992306.jpg",
+      "title": "Rare cat circuit-board - oddity as myth object",
+      "credit": "@rare_jpg",
+      "href": "https://x.com/rare_jpg/status/2085286254719992306",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085286254719992306"
+    },
+    {
+      "id": "love-2026-08-06-dump/solisolsoli-236871",
+      "src": "ingest/love-2026-08-06-dump/solisolsoli-236871.jpg",
+      "title": "Solitary figure still - void intimacy at scale",
+      "credit": "@solisolsoli",
+      "href": "https://x.com/solisolsoli/status/2085221828780236871",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "music"
+      ],
+      "featured": true,
+      "post_id": "2085221828780236871"
+    },
+    {
+      "id": "love-2026-08-06-dump/gizakdag-143589",
+      "src": "ingest/love-2026-08-06-dump/gizakdag-143589.jpg",
+      "title": "Tennis time claymation - motion in the still",
+      "credit": "@gizakdag",
+      "href": "https://x.com/gizakdag/status/2085347706638143589",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "fashion",
+        "motion",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2085347706638143589"
+    },
+    {
+      "id": "love-2026-08-06-dump/aivickai-803894",
+      "src": "ingest/love-2026-08-06-dump/aivickai-803894.jpg",
+      "title": "Another morning - powerful woman portrait",
+      "credit": "@AiVickai",
+      "href": "https://x.com/AiVickai/status/2085319987078803894",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": "2085319987078803894"
+    },
+    {
+      "id": "love-2026-08-06-dump/unseenai-677607",
+      "src": "ingest/love-2026-08-06-dump/unseenai-677607.jpg",
+      "title": "Blending time toy still",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085402289590677607",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085402289590677607"
+    },
+    {
+      "id": "love-2026-08-06-dump/0xbcd_-400035",
+      "src": "ingest/love-2026-08-06-dump/0xbcd_-400035.jpg",
+      "title": "Blockchain creative director still",
+      "credit": "@0xbcd_",
+      "href": "https://x.com/0xbcd_/status/2085329035274400035",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085329035274400035"
+    },
+    {
+      "id": "love-2026-08-06-dump/aimeowing-512216",
+      "src": "ingest/love-2026-08-06-dump/aimeowing-512216.jpg",
+      "title": "Boy and cat nap story still",
+      "credit": "@AiMeowing",
+      "href": "https://x.com/AiMeowing/status/2085335183054512216",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085335183054512216"
+    },
+    {
+      "id": "love-2026-08-06-dump/aimeowing-076740",
+      "src": "ingest/love-2026-08-06-dump/aimeowing-076740.jpg",
+      "title": "Boy and cat story still - live forever room",
+      "credit": "@AiMeowing",
+      "href": "https://x.com/AiMeowing/status/2085244583433076740",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "music",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085244583433076740"
+    },
+    {
+      "id": "love-2026-08-06-dump/unseenai-147788",
+      "src": "ingest/love-2026-08-06-dump/unseenai-147788.jpg",
+      "title": "Green buddy companion still",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085439061838147788",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085439061838147788"
+    },
+    {
+      "id": "love-2026-08-06-dump/unseenai-073153",
+      "src": "ingest/love-2026-08-06-dump/unseenai-073153.jpg",
+      "title": "Multi-sref blend --exp10 raw stylize pack",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085441796474073153",
+      "kind": "image",
+      "batch": "love-2026-08-06-dump",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2085441796474073153"
+    },
+    {
+      "id": "love-2026-08-05-evening/defaced-gm",
+      "src": "ingest/love-2026-08-05-evening/defaced-gm.jpg",
+      "title": "defaced gm",
+      "credit": "@Defacedstudio",
+      "href": "https://x.com/Defacedstudio/status/2085030852866560186",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/outrunyouth-gm",
+      "src": "ingest/love-2026-08-05-evening/outrunyouth-gm.jpg",
+      "title": "gm 3D still",
+      "credit": "@outrunyouth",
+      "href": "https://x.com/outrunyouth/status/2084999023782432831",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2084999023782432831"
+    },
+    {
+      "id": "love-2026-08-05-evening/grailsart-alex-parnassus",
+      "src": "ingest/love-2026-08-05-evening/grailsart-alex-parnassus.jpg",
+      "title": "grailsart alex parnassus",
+      "credit": "@grailsart",
+      "href": "https://x.com/grailsart/status/2085068878481142149",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/grailsart-peccinetti",
+      "src": "ingest/love-2026-08-05-evening/grailsart-peccinetti.jpg",
+      "title": "grailsart peccinetti",
+      "credit": "@grailsart",
+      "href": "https://x.com/grailsart/status/2085068878481142149",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/improbable-device",
+      "src": "ingest/love-2026-08-05-evening/improbable-device.jpg",
+      "title": "improbable device",
+      "credit": "@an_improbable_f",
+      "href": "https://x.com/an_improbable_f/status/2084966260517863741",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/keskin-troy-1",
+      "src": "ingest/love-2026-08-05-evening/keskin-troy-1.jpg",
+      "title": "keskin troy 1",
+      "credit": "@craftian_keskin",
+      "href": "https://x.com/craftian_keskin/status/2085072970129576086",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/keskin-troy-2",
+      "src": "ingest/love-2026-08-05-evening/keskin-troy-2.jpg",
+      "title": "keskin troy 2",
+      "credit": "@craftian_keskin",
+      "href": "https://x.com/craftian_keskin/status/2085072970129576086",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/keskin-troy-3",
+      "src": "ingest/love-2026-08-05-evening/keskin-troy-3.jpg",
+      "title": "keskin troy 3",
+      "credit": "@craftian_keskin",
+      "href": "https://x.com/craftian_keskin/status/2085072970129576086",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/keskin-troy-4",
+      "src": "ingest/love-2026-08-05-evening/keskin-troy-4.jpg",
+      "title": "keskin troy 4",
+      "credit": "@craftian_keskin",
+      "href": "https://x.com/craftian_keskin/status/2085072970129576086",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/ksunny-patterns-1",
+      "src": "ingest/love-2026-08-05-evening/ksunny-patterns-1.jpg",
+      "title": "ksunny patterns 1",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/ksunny-patterns-2",
+      "src": "ingest/love-2026-08-05-evening/ksunny-patterns-2.jpg",
+      "title": "ksunny patterns 2",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/ksunny-patterns-3",
+      "src": "ingest/love-2026-08-05-evening/ksunny-patterns-3.jpg",
+      "title": "ksunny patterns 3",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/ksunny-patterns-4",
+      "src": "ingest/love-2026-08-05-evening/ksunny-patterns-4.jpg",
+      "title": "ksunny patterns 4",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/lloyd-bloom-1",
+      "src": "ingest/love-2026-08-05-evening/lloyd-bloom-1.jpg",
+      "title": "lloyd bloom 1",
+      "credit": "@lloydcreates",
+      "href": "https://x.com/lloydcreates/status/2084973946600919543",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/lloyd-bloom-2",
+      "src": "ingest/love-2026-08-05-evening/lloyd-bloom-2.jpg",
+      "title": "lloyd bloom 2",
+      "credit": "@lloydcreates",
+      "href": "https://x.com/lloydcreates/status/2084973946600919543",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/lloyd-bloom-3",
+      "src": "ingest/love-2026-08-05-evening/lloyd-bloom-3.jpg",
+      "title": "lloyd bloom 3",
+      "credit": "@lloydcreates",
+      "href": "https://x.com/lloydcreates/status/2084973946600919543",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/lloyd-bloom-4",
+      "src": "ingest/love-2026-08-05-evening/lloyd-bloom-4.jpg",
+      "title": "lloyd bloom 4",
+      "credit": "@lloydcreates",
+      "href": "https://x.com/lloydcreates/status/2084973946600919543",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/mechanismo-evening",
+      "src": "ingest/love-2026-08-05-evening/mechanismo-evening.jpg",
+      "title": "mechanismo evening",
+      "credit": "@Mechanismo0",
+      "href": "https://x.com/Mechanismo0/status/2084610301119652348",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/ciguleva-mj-2",
+      "src": "ingest/love-2026-08-05-evening/ciguleva-mj-2.jpg",
+      "title": "midjourney stills set",
+      "credit": "@ciguleva",
+      "href": "https://x.com/ciguleva/status/2085040630905115127",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": "2085040630905115127"
+    },
+    {
+      "id": "love-2026-08-05-evening/nftlisa-morning",
+      "src": "ingest/love-2026-08-05-evening/nftlisa-morning.jpg",
+      "title": "Morning weirdos",
+      "credit": "@nftlisa",
+      "href": "https://x.com/nftlisa/status/2084866034482229458",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "fashion",
+        "music"
+      ],
+      "featured": false,
+      "post_id": "2084866034482229458"
+    },
+    {
+      "id": "love-2026-08-05-evening/nadler-last-library",
+      "src": "ingest/love-2026-08-05-evening/nadler-last-library.jpg",
+      "title": "nadler last library",
+      "credit": "@RichardNadler1",
+      "href": "https://x.com/RichardNadler1/status/2085091777954894202",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-1",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-1.jpg",
+      "title": "palak styles 1",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2084883087670886842",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-2",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-2.jpg",
+      "title": "palak styles 2",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2084883087670886842",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-3",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-3.jpg",
+      "title": "palak styles 3",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2084883087670886842",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-4",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-4.jpg",
+      "title": "palak styles 4",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2084883087670886842",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/rik-slow-dance-1",
+      "src": "ingest/love-2026-08-05-evening/rik-slow-dance-1.jpg",
+      "title": "rik slow dance 1",
+      "credit": "@DangerSlowCat",
+      "href": "https://x.com/DangerSlowCat/status/2085426401499332906",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "music",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/rik-slow-dance-2",
+      "src": "ingest/love-2026-08-05-evening/rik-slow-dance-2.jpg",
+      "title": "rik slow dance 2",
+      "credit": "@DangerSlowCat",
+      "href": "https://x.com/DangerSlowCat/status/2085426401499332906",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "music",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/tkerouac-horror",
+      "src": "ingest/love-2026-08-05-evening/tkerouac-horror.jpg",
+      "title": "tkerouac horror",
+      "credit": "@TKerouac76",
+      "href": "https://x.com/TKerouac76/status/2084992761153966104",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/unseenai-mixes",
+      "src": "ingest/love-2026-08-05-evening/unseenai-mixes.jpg",
+      "title": "unseenai mixes",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085062990856909033",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/unseenai-sref-recipe",
+      "src": "ingest/love-2026-08-05-evening/unseenai-sref-recipe.jpg",
+      "title": "unseenai sref recipe",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085062990856909033",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/mnowak-cinematic-dash",
+      "src": "ingest/love-2026-08-05-kali/mnowak-cinematic-dash.jpg",
+      "title": "Cinematic dashboards",
+      "credit": "@mnowakdesign",
+      "href": "https://x.com/mnowakdesign/status/2084611335346925670",
+      "kind": "video",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "defensive",
+        "pro",
+        "motion"
+      ],
+      "featured": false,
+      "post_id": "2084611335346925670"
+    },
+    {
+      "id": "love-2026-08-05-kali/aditya-confidential-open",
+      "src": "ingest/love-2026-08-05-kali/aditya-confidential-open.jpg",
+      "title": "Confidential file animation free #1",
+      "credit": "@AdityaSur11",
+      "href": "https://x.com/AdityaSur11/status/2084844344259776904",
+      "kind": "video",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": "2084844344259776904"
+    },
+    {
+      "id": "love-2026-08-05-kali/elaya-clean",
+      "src": "ingest/love-2026-08-05-kali/elaya-clean.jpg",
+      "title": "elaya clean",
+      "credit": "@elayadesigns",
+      "href": "https://x.com/elayadesigns/status/2084908433950785757",
+      "kind": "video",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/elaya-kling3-hero",
+      "src": "ingest/love-2026-08-05-kali/elaya-kling3-hero.jpg",
+      "title": "elaya kling3 hero",
+      "credit": "@elayadesigns",
+      "href": "https://x.com/elayadesigns/status/2084908433950785757",
+      "kind": "video",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "motion"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/julianc-wrath",
+      "src": "ingest/love-2026-08-05-kali/julianc-wrath.jpg",
+      "title": "julianc wrath",
+      "credit": "@Julianc_AI2",
+      "href": "https://x.com/Julianc_AI2/status/2085136101358870588",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "fashion"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/lyn-motoko",
+      "src": "ingest/love-2026-08-05-kali/lyn-motoko.jpg",
+      "title": "lyn motoko",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/pilgrim-star-samurai-1",
+      "src": "ingest/love-2026-08-05-kali/pilgrim-star-samurai-1.jpg",
+      "title": "pilgrim star samurai 1",
+      "credit": "@pilgrim_wander",
+      "href": "https://x.com/pilgrim_wander/status/2084618486886621430",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/pilgrim-star-samurai-2",
+      "src": "ingest/love-2026-08-05-kali/pilgrim-star-samurai-2.jpg",
+      "title": "pilgrim star samurai 2",
+      "credit": "@pilgrim_wander",
+      "href": "https://x.com/pilgrim_wander/status/2084618486886621430",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/piotr-sacred-1",
+      "src": "ingest/love-2026-08-05-kali/piotr-sacred-1.jpg",
+      "title": "piotr sacred 1",
+      "credit": "@piotrbinkowski",
+      "href": "https://x.com/piotrbinkowski/status/2084642435175473662",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/piotr-sacred-2",
+      "src": "ingest/love-2026-08-05-kali/piotr-sacred-2.jpg",
+      "title": "piotr sacred 2",
+      "credit": "@piotrbinkowski",
+      "href": "https://x.com/piotrbinkowski/status/2084642435175473662",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/rowan-clean",
+      "src": "ingest/love-2026-08-05-kali/rowan-clean.jpg",
+      "title": "rowan clean",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/rowan-framer-shaders-footer",
+      "src": "ingest/love-2026-08-05-kali/rowan-framer-shaders-footer.jpg",
+      "title": "rowan framer shaders footer",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/rowan-framer-shaders-footer-b",
+      "src": "ingest/love-2026-08-05-kali/rowan-framer-shaders-footer-b.jpg",
+      "title": "rowan framer shaders footer b",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/ui8-clean",
+      "src": "ingest/love-2026-08-05-kali/ui8-clean.jpg",
+      "title": "ui8 clean",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/ui8-portfolio-physics",
+      "src": "ingest/love-2026-08-05-kali/ui8-portfolio-physics.jpg",
+      "title": "ui8 portfolio physics",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-kali/ultima-respawn",
+      "src": "ingest/love-2026-08-05-kali/ultima-respawn.jpg",
+      "title": "ultima respawn",
+      "credit": "@Ultima1138",
+      "href": "https://x.com/Ultima1138/status/2085145952952746068",
+      "kind": "image",
+      "batch": "love-2026-08-05-kali",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/fedos-still",
+      "src": "ingest/love-2026-08-04-batch3/fedos-still.jpg",
+      "title": "fedos still",
+      "credit": "@fedos_art",
+      "href": "https://x.com/fedos_art/status/2084674989270409305",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/hamza-serif-1",
+      "src": "ingest/love-2026-08-04-batch3/hamza-serif-1.jpg",
+      "title": "hamza serif 1",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/hamza-serif-2",
+      "src": "ingest/love-2026-08-04-batch3/hamza-serif-2.jpg",
+      "title": "hamza serif 2",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/hamza-serif-3",
+      "src": "ingest/love-2026-08-04-batch3/hamza-serif-3.jpg",
+      "title": "hamza serif 3",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/hamza-serif-4",
+      "src": "ingest/love-2026-08-04-batch3/hamza-serif-4.jpg",
+      "title": "hamza serif 4",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/horror-halloween",
+      "src": "ingest/love-2026-08-04-batch3/horror-halloween.jpg",
+      "title": "horror halloween",
+      "credit": "@HorrorCarnival",
+      "href": "https://x.com/HorrorCarnival/status/2084610303543963991",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/jing-paint-1",
+      "src": "ingest/love-2026-08-04-batch3/jing-paint-1.jpg",
+      "title": "jing paint 1",
+      "credit": "@jingzhiyongart",
+      "href": "https://x.com/jingzhiyongart/status/2084662630556508645",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/jing-paint-2",
+      "src": "ingest/love-2026-08-04-batch3/jing-paint-2.jpg",
+      "title": "jing paint 2",
+      "credit": "@jingzhiyongart",
+      "href": "https://x.com/jingzhiyongart/status/2084662630556508645",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/jing-paint-3",
+      "src": "ingest/love-2026-08-04-batch3/jing-paint-3.jpg",
+      "title": "jing paint 3",
+      "credit": "@jingzhiyongart",
+      "href": "https://x.com/jingzhiyongart/status/2084662630556508645",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/jing-paint-4",
+      "src": "ingest/love-2026-08-04-batch3/jing-paint-4.jpg",
+      "title": "jing paint 4",
+      "credit": "@jingzhiyongart",
+      "href": "https://x.com/jingzhiyongart/status/2084662630556508645",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kashish-ui-1",
+      "src": "ingest/love-2026-08-04-batch3/kashish-ui-1.jpg",
+      "title": "kashish ui 1",
+      "credit": "@Kashish2811kj",
+      "href": "https://x.com/Kashish2811kj/status/2084310826090168678",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kashish-ui-2",
+      "src": "ingest/love-2026-08-04-batch3/kashish-ui-2.jpg",
+      "title": "kashish ui 2",
+      "credit": "@Kashish2811kj",
+      "href": "https://x.com/Kashish2811kj/status/2084310826090168678",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kashish-ui-3",
+      "src": "ingest/love-2026-08-04-batch3/kashish-ui-3.jpg",
+      "title": "kashish ui 3",
+      "credit": "@Kashish2811kj",
+      "href": "https://x.com/Kashish2811kj/status/2084310826090168678",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kashish-ui-4",
+      "src": "ingest/love-2026-08-04-batch3/kashish-ui-4.jpg",
+      "title": "kashish ui 4",
+      "credit": "@Kashish2811kj",
+      "href": "https://x.com/Kashish2811kj/status/2084310826090168678",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "defensive",
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kenva-epic-1",
+      "src": "ingest/love-2026-08-04-batch3/kenva-epic-1.jpg",
+      "title": "kenva epic 1",
+      "credit": "@24Kenva",
+      "href": "https://x.com/24Kenva/status/2084610308476403924",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kenva-epic-2",
+      "src": "ingest/love-2026-08-04-batch3/kenva-epic-2.jpg",
+      "title": "kenva epic 2",
+      "credit": "@24Kenva",
+      "href": "https://x.com/24Kenva/status/2084610308476403924",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kenva-epic-3",
+      "src": "ingest/love-2026-08-04-batch3/kenva-epic-3.jpg",
+      "title": "kenva epic 3",
+      "credit": "@24Kenva",
+      "href": "https://x.com/24Kenva/status/2084610308476403924",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/kenva-epic-4",
+      "src": "ingest/love-2026-08-04-batch3/kenva-epic-4.jpg",
+      "title": "kenva epic 4",
+      "credit": "@24Kenva",
+      "href": "https://x.com/24Kenva/status/2084610308476403924",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "motion",
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/ksunny-ghotem-1",
+      "src": "ingest/love-2026-08-04-batch3/ksunny-ghotem-1.jpg",
+      "title": "ksunny ghotem 1",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/ksunny-ghotem-2",
+      "src": "ingest/love-2026-08-04-batch3/ksunny-ghotem-2.jpg",
+      "title": "ksunny ghotem 2",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/ksunny-ghotem-3",
+      "src": "ingest/love-2026-08-04-batch3/ksunny-ghotem-3.jpg",
+      "title": "ksunny ghotem 3",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/ksunny-ghotem-4",
+      "src": "ingest/love-2026-08-04-batch3/ksunny-ghotem-4.jpg",
+      "title": "ksunny ghotem 4",
+      "credit": "@KsunnyWazowski",
+      "href": "https://x.com/KsunnyWazowski/status/2085107325212237906",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/manco-comic-1",
+      "src": "ingest/love-2026-08-04-batch3/manco-comic-1.jpg",
+      "title": "manco comic 1",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/manco-comic-2",
+      "src": "ingest/love-2026-08-04-batch3/manco-comic-2.jpg",
+      "title": "manco comic 2",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/manco-comic-3",
+      "src": "ingest/love-2026-08-04-batch3/manco-comic-3.jpg",
+      "title": "manco comic 3",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/manco-comic-4",
+      "src": "ingest/love-2026-08-04-batch3/manco-comic-4.jpg",
+      "title": "manco comic 4",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/midlib-folk-1",
+      "src": "ingest/love-2026-08-04-batch3/midlib-folk-1.jpg",
+      "title": "midlib folk 1",
+      "credit": "@Midlibrary_io",
+      "href": "https://x.com/Midlibrary_io/status/2084706936088608981",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/midlib-folk-2",
+      "src": "ingest/love-2026-08-04-batch3/midlib-folk-2.jpg",
+      "title": "midlib folk 2",
+      "credit": "@Midlibrary_io",
+      "href": "https://x.com/Midlibrary_io/status/2084706936088608981",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/midlib-folk-3",
+      "src": "ingest/love-2026-08-04-batch3/midlib-folk-3.jpg",
+      "title": "midlib folk 3",
+      "credit": "@Midlibrary_io",
+      "href": "https://x.com/Midlibrary_io/status/2084706936088608981",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/midlib-folk-4",
+      "src": "ingest/love-2026-08-04-batch3/midlib-folk-4.jpg",
+      "title": "midlib folk 4",
+      "credit": "@Midlibrary_io",
+      "href": "https://x.com/Midlibrary_io/status/2084706936088608981",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/nature-scene-1",
+      "src": "ingest/love-2026-08-04-batch3/nature-scene-1.jpg",
+      "title": "nature scene 1",
+      "credit": "@naturehealyou",
+      "href": "https://x.com/naturehealyou/status/2084607782683029946",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/nature-scene-2",
+      "src": "ingest/love-2026-08-04-batch3/nature-scene-2.jpg",
+      "title": "nature scene 2",
+      "credit": "@naturehealyou",
+      "href": "https://x.com/naturehealyou/status/2084607782683029946",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/plasm0-surreal",
+      "src": "ingest/love-2026-08-04-batch3/plasm0-surreal.jpg",
+      "title": "plasm0 surreal",
+      "credit": "@plasm0",
+      "href": "https://x.com/plasm0/status/2084750813189005376",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/satidentifier-ui",
+      "src": "ingest/love-2026-08-04-batch3/satidentifier-ui.jpg",
+      "title": "satidentifier ui",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/sref-3343032843-1",
+      "src": "ingest/love-2026-08-04-batch3/sref-3343032843-1.jpg",
+      "title": "sref 3343032843 1",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/sref-3343032843-2",
+      "src": "ingest/love-2026-08-04-batch3/sref-3343032843-2.jpg",
+      "title": "sref 3343032843 2",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/sref-3343032843-3",
+      "src": "ingest/love-2026-08-04-batch3/sref-3343032843-3.jpg",
+      "title": "sref 3343032843 3",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/sref-3343032843-4",
+      "src": "ingest/love-2026-08-04-batch3/sref-3343032843-4.jpg",
+      "title": "sref 3343032843 4",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/supernal-mecha-1",
+      "src": "ingest/love-2026-08-04-batch3/supernal-mecha-1.jpg",
+      "title": "supernal mecha 1",
+      "credit": "@supernalmystic",
+      "href": "https://x.com/supernalmystic/status/2084766708338676100",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/supernal-mecha-2",
+      "src": "ingest/love-2026-08-04-batch3/supernal-mecha-2.jpg",
+      "title": "supernal mecha 2",
+      "credit": "@supernalmystic",
+      "href": "https://x.com/supernalmystic/status/2084766708338676100",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/supernal-mecha-3",
+      "src": "ingest/love-2026-08-04-batch3/supernal-mecha-3.jpg",
+      "title": "supernal mecha 3",
+      "credit": "@supernalmystic",
+      "href": "https://x.com/supernalmystic/status/2084766708338676100",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch3/supernal-mecha-4",
+      "src": "ingest/love-2026-08-04-batch3/supernal-mecha-4.jpg",
+      "title": "supernal mecha 4",
+      "credit": "@supernalmystic",
+      "href": "https://x.com/supernalmystic/status/2084766708338676100",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch3",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/lacey-hangs",
+      "src": "ingest/love-2026-08-04-batch2/lacey-hangs.jpg",
+      "title": "lacey hangs",
+      "credit": "@lacey_ai",
+      "href": "https://x.com/lacey_ai/status/2084770109181308949",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/laura-crossing-paths",
+      "src": "ingest/love-2026-08-04-batch2/laura-crossing-paths.jpg",
+      "title": "laura crossing paths",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/laura-misty-city",
+      "src": "ingest/love-2026-08-04-batch2/laura-misty-city.jpg",
+      "title": "laura misty city",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/laura-swan-1",
+      "src": "ingest/love-2026-08-04-batch2/laura-swan-1.jpg",
+      "title": "laura swan 1",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/laura-swan-2",
+      "src": "ingest/love-2026-08-04-batch2/laura-swan-2.jpg",
+      "title": "laura swan 2",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/laura-swan-3",
+      "src": "ingest/love-2026-08-04-batch2/laura-swan-3.jpg",
+      "title": "laura swan 3",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/laura-swan-4",
+      "src": "ingest/love-2026-08-04-batch2/laura-swan-4.jpg",
+      "title": "laura swan 4",
+      "credit": "@iamlaurael",
+      "href": "https://x.com/iamlaurael/status/2085396076933099941",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "speculative"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/sref-2542667454-1",
+      "src": "ingest/love-2026-08-04-batch2/sref-2542667454-1.jpg",
+      "title": "sref 2542667454 1",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/sref-2542667454-2",
+      "src": "ingest/love-2026-08-04-batch2/sref-2542667454-2.jpg",
+      "title": "sref 2542667454 2",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/sref-2542667454-3",
+      "src": "ingest/love-2026-08-04-batch2/sref-2542667454-3.jpg",
+      "title": "sref 2542667454 3",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04-batch2/sref-2542667454-4",
+      "src": "ingest/love-2026-08-04-batch2/sref-2542667454-4.jpg",
+      "title": "sref 2542667454 4",
+      "credit": "@sergeantsref",
+      "href": "https://x.com/sergeantsref/status/2085490096648695843",
+      "kind": "image",
+      "batch": "love-2026-08-04-batch2",
+      "registers": [
+        "pro",
+        "sketch"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/booter-mood-1",
+      "src": "ingest/love-2026-08-04/booter-mood-1.jpg",
+      "title": "booter mood 1",
+      "credit": "@booterart",
+      "href": "https://x.com/booterart/status/2085452684598169809",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/cabral-iliad-1",
+      "src": "ingest/love-2026-08-04/cabral-iliad-1.jpg",
+      "title": "cabral iliad 1",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/lou-good-light-1",
+      "src": "ingest/love-2026-08-04/lou-good-light-1.jpg",
+      "title": "lou good light 1",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/mendez-past-life",
+      "src": "ingest/love-2026-08-04/mendez-past-life.jpg",
+      "title": "mendez past life",
+      "credit": "@mendezmendez",
+      "href": "https://x.com/mendezmendez/status/2085503698105442618",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [
+        "music"
+      ],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/postwook-portals-1",
+      "src": "ingest/love-2026-08-04/postwook-portals-1.jpg",
+      "title": "postwook portals 1",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/ror-maui-collage",
+      "src": "ingest/love-2026-08-04/ror-maui-collage.jpg",
+      "title": "ror maui collage",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/synthetic-forgotten-tech-1",
+      "src": "ingest/love-2026-08-04/synthetic-forgotten-tech-1.jpg",
+      "title": "synthetic forgotten tech 1",
+      "credit": "",
+      "href": "",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [],
+      "featured": false,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-04/unseen-rise",
+      "src": "ingest/love-2026-08-04/unseen-rise.jpg",
+      "title": "unseen rise",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2085062990856909033",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [
+        "pro"
+      ],
+      "featured": false,
+      "post_id": null
+    }
+  ]
+}

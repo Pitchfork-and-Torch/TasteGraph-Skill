@@ -1,0 +1,34 @@
+# TasteGraph
+
+> Local-first personal TasteGraph: a living multi-dimensional preference graph for aesthetic, creative, design, and cultural taste.
+
+- Site: https://tastegraph.jonbailey.xyz/
+- Interactive wheel: https://tastegraph.jonbailey.xyz/wheel/
+- Updates log: https://tastegraph.jonbailey.xyz/updates/
+- Updates JSON: https://tastegraph.jonbailey.xyz/updates/log.json
+- Source: https://github.com/Pitchfork-and-Torch/TasteGraph-Skill
+- License: MIT
+- Public graph / wheel version: 1.3.3
+
+## One-liner
+Structured loves, hard antis, aesthetic registers, motion stack, exportable system prompts, and a 3D decision-weight wheel - files on your disk, not a cloud profile.
+
+## Quick answers
+- What is it? An open-source agent skill + JSON schema for personal taste graphs, plus an interactive wheel on the product site.
+- Where is the wheel? https://tastegraph.jonbailey.xyz/wheel/
+- Where is the changelog? https://tastegraph.jonbailey.xyz/updates/ (JSON twin: /updates/log.json)
+- Who is it for? Designers, artists, builders, and agents that generate visual work.
+- Does it store PII? No. Schema and skill forbid PII; sample graphs are synthetic. Public wheel may credit public posts with source links.
+
+## Standing product practices
+- Public pie examples from art/design posts include source links (credit + href) when the post URL is known.
+- Every material public wheel or site ship appends an entry to /updates/ and /updates/log.json (newest first).
+
+## Links
+- / (landing)
+- /wheel/ (interactive 3D decision wheel)
+- /updates/ (human update log)
+- /updates/log.json (machine update log)
+- /og.jpg (1200x630 link preview)
+- /llms.txt (this file)
+- https://github.com/Pitchfork-and-Torch/TasteGraph-Skill
