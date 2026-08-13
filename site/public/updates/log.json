@@ -1,0 +1,355 @@
+{
+  "product": "TasteGraph",
+  "url": "https://tastegraph.jonbailey.xyz/",
+  "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+  "updates_page": "https://tastegraph.jonbailey.xyz/updates/",
+  "policy": {
+    "append_on_public_pie_ship": true,
+    "source_links_required_for_public_art": true,
+    "note": "Append a new entry (newest first) whenever the public wheel or product site ships a material update."
+  },
+  "latest": "1.3.14",
+  "entries": [
+    {
+      "version": "1.3.14",
+      "date": "2026-08-18",
+      "title": "Wheel + grid ship: 23 wedges from 08-18 dump",
+      "tags": [
+        "wheel",
+        "pie",
+        "grid",
+        "sources",
+        "ingest"
+      ],
+      "summary": "Love dump from Desktop tastegraph_update_08-18-2026.txt (33 X posts + beUI catalog). Featured decision-wheel stills replaced (23 examples, every credit+href). Public grid + contributing sources include love-2026-08-18-dump. Standing rule: dumps with more than 10 unique public links ship both wheel and grid same turn.",
+      "highlights": [
+        "33 new posts in love-2026-08-18-dump (0 fetch failures, 31 public stills; 1 personal still offline-only)",
+        "23 pie examples across 8 registers (*-v1314.jpg cache bust)",
+        "Music: desert night diner + Late Check-In motel + pastoral hill",
+        "Myth: stone computer + cliff motorcycle + less-screen sliver",
+        "Sketch: Dryad house + pixel pool + ramenya warmth shop",
+        "Motion/Pro: liquid glass, html-in-canvas, 3D rolling, gel icons, Polysans, BoardUI",
+        "Fashion: chrome hand, Renaissance jeweled face, Kismet lion",
+        "Non-X: github.com/starc007/ui-components (beUI)",
+        "Offline nodes: less-screen object, gel icons, liquid glass, html-in-canvas, aquatic console, motel neon path, desert diner, 3D folder, beUI catalog",
+        "Source link gate: 23/23 with_href"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-14"
+      }
+    },
+    {
+      "version": "1.3.13",
+      "date": "2026-08-11",
+      "title": "Wheel + grid ship: 23 wedges from ongoing.txt dump",
+      "tags": [
+        "wheel",
+        "pie",
+        "grid",
+        "sources",
+        "ingest"
+      ],
+      "summary": "Love dump from Desktop ongoing.txt (38 X posts + 2 craft sites). Featured decision-wheel stills replaced (23 examples, every credit+href). Public grid +414 sources / +409 stills including love-2026-08-11-dump. Standing rule: dumps with more than 10 unique public links ship both wheel and grid same turn.",
+      "highlights": [
+        "38 new posts in love-2026-08-11-dump (0 fetch failures, 36 stills; 2 media-empty)",
+        "409 public-art stills in ingest-stills.json (+36 thumbs from this batch)",
+        "414 contributing sources (289 image / 125 video)",
+        "23 pie examples across 8 registers (*-v1313.jpg cache bust)",
+        "Music: weavewoorld bookghost + AiMeowing blue room + kak_dc GN print",
+        "Myth: Paper_4k moai suit + GalacticStones megalith + gold bird",
+        "Sketch: kznsq rainy oil + LucaPonsato monotony + mirrutatep pixel Switch",
+        "Motion/Pro: liquid gooey, velocity DnD, glass harmony, receipt, briefing book",
+        "Fashion: Solithra cat clovers + solisolsoli shadows + marysia_cc whales",
+        "Non-X signals noted: beautiful-ui-five.vercel.app, backdrop.love",
+        "Offline nodes: receipt tactile checkout, liquid gooey craft, bookghost, moai object hero, briefing book, beautiful UI catalog",
+        "Source link gate: 23/23 with_href"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-13"
+      }
+    },
+    {
+      "version": "1.3.12",
+      "date": "2026-08-10",
+      "title": "Wheel + grid ship: 23 wedges from 08-10 dump",
+      "tags": [
+        "wheel",
+        "pie",
+        "grid",
+        "sources"
+      ],
+      "summary": "Featured decision-wheel stills replaced from the August 10 love dump peaks (plus GalacticStones p0 megalith). 23 public-art examples, every credit+href. Grid remains 376 stills / 376 contributing sources. Standing rule locked: dumps with more than 10 unique public links ship both wheel and grid same turn.",
+      "highlights": [
+        "23 pie examples across 8 registers (*-v1312.jpg cache bust)",
+        "Music: goo_vision atmosphere pair + KiddieChronicle domestic",
+        "Myth: neomechanica + GalacticStones megalith (p0) + cromsovertures",
+        "Sketch: pixel grape + BARTKIRA + Singularity",
+        "Motion/Pro: Thinking Animation, Ori water, brick/toggle/jelly micro-UI",
+        "Fashion: Rik faded memories, muovata, Gentleman series",
+        "Source link gate: 23/23 with_href",
+        "Standing: dump >10 links => wheel + grid (PUBLIC-PIE-SOURCE-LINKS.md)"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-12"
+      }
+    },
+    {
+      "version": "1.3.11",
+      "date": "2026-08-10",
+      "title": "August 10 love dump: +73 sources, grid 376",
+      "tags": [
+        "grid",
+        "sources",
+        "ingest"
+      ],
+      "summary": "Offline love ingest of 73 public X posts from Desktop tastegraph-dump-08-10-2026.md. Public grid and contributing-sources catalog expanded with original post links. Featured pie wedge stills unchanged (1.3.10); unshipped peaks tracked in pie backlog. Non-X signals noted: motionsites.ai, designengineer.tools, archive.org BARTKIRA.",
+      "highlights": [
+        "73 new posts in love-2026-08-10-dump (0 fetch failures, 71 stills; 2 media-empty)",
+        "376 public-art stills in ingest-stills.json (+71 thumbs from this batch)",
+        "376 contributing sources in contributing-sources.json (265 image / 111 video)",
+        "Peaks: brick/toggle micro-UI, Ori-inspired water, Claude/Grok builder chrome, 3D jelly icons, BARTKIRA collab, Singularity still, AdityaSur Thinking Animation, film-seed video cluster",
+        "Offline nodes: art.bartkira_crossover, tool.design_engineer_catalog, tool.motionsites_signal, ui.grok_builder_chrome; strength bumps on landing craft, film-seed, cyber landscape",
+        "Featured pie stills unchanged; mass pie ship via PIE-UNSHIPPED-BACKLOG (must=5 high=219)"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "ingest": "https://tastegraph.jonbailey.xyz/wheel/ingest-stills.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-11"
+      }
+    },
+    {
+      "version": "1.3.10",
+      "date": "2026-08-08",
+      "title": "Mass pie wedge ship: 23 source-linked stills",
+      "tags": [
+        "wheel",
+        "pie",
+        "sources"
+      ],
+      "summary": "Replaced all decision-wheel featured stills with p0 backlog + 08-08 peaks. 23 public-art examples, every one credit+href. Register weights unchanged. Grid catalog remains 1.3.9 dump inventory (304 stills).",
+      "highlights": [
+        "23 pie examples across 8 registers (was 17 from 1.3.6 craft)",
+        "P0 must shipped: sacred tech, Troy epic, knowledge tree, slow dance, anachronistic device, kaolti AI+3D, Sticky craft",
+        "08-08 peaks: Blade Runner (24Kenva), pixel craft, Lonely Island paint, Arizona POSTWOOK, micro-UI buttons",
+        "Source link gate: 23/23 with_href",
+        "Filenames *-v139.jpg for CF cache bust"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-10"
+      }
+    },
+    {
+      "version": "1.3.9",
+      "date": "2026-08-08",
+      "title": "August 8 love dump: +64 sources, grid 301",
+      "tags": [
+        "grid",
+        "sources",
+        "ingest"
+      ],
+      "summary": "Offline love ingest of 64 public X posts from tastegraph update 8-8-26.md. Public grid and contributing-sources catalog expanded with original post links. Featured pie wedge stills unchanged; unshipped peaks tracked in pie backlog.",
+      "highlights": [
+        "64 new posts in love-2026-08-08-dump (0 fetch failures, 64 stills)",
+        "301 public-art stills in ingest-stills.json (64 new thumbs, all credit+href when recoverable)",
+        "303 contributing sources in contributing-sources.json",
+        "Peaks: kaolti AI+3D HTML, AdityaSur depth card, pixel cluster (YutoripP/pixeldoshi/kouzou), 24Kenva Blade Runner, iamlaurael Lonely Island, gentleman fashion series, POSTWOOK Arizona",
+        "New graph nodes: ui.tactile_micro_interaction, art.handwritten_web_viz, art.blade_runner_cinematic, art.pixel_craft",
+        "Featured pie stills unchanged; mass pie ship via PIE-UNSHIPPED-BACKLOG"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "ingest": "https://tastegraph.jonbailey.xyz/wheel/ingest-stills.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-9"
+      }
+    },
+    {
+      "version": "1.3.8",
+      "date": "2026-08-07",
+      "title": "August 7 love dump: +108 sources, grid 237",
+      "tags": [
+        "grid",
+        "sources",
+        "ingest"
+      ],
+      "summary": "Offline love ingest of 108 public X posts from Desktop 08-07-2026-tastegraph.md. Public grid and contributing-sources catalog expanded with original post links. Featured pie wedge stills unchanged; unshipped peaks tracked in pie backlog. motionsites.ai/mcp noted as tool signal.",
+      "highlights": [
+        "108 new posts in love-2026-08-07-dump (0 evidence post_id duplicates)",
+        "237 public-art stills in ingest-stills.json (106 new thumbs, all credit+href)",
+        "239 contributing sources in contributing-sources.json",
+        "Peaks: threejsassets, creativedash Sticky, dnatsuuu WebGL, jh3yy spritesheets, GalacticStones, JimMusil paint, RikOostenbroek bloom",
+        "Featured pie stills unchanged; mass pie ship via PIE-UNSHIPPED-BACKLOG"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "ingest": "https://tastegraph.jonbailey.xyz/wheel/ingest-stills.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-8"
+      }
+    },
+    {
+      "version": "1.3.7",
+      "date": "2026-08-06",
+      "title": "Wheel + Grid: full ingest stills archive",
+      "tags": [
+        "wheel",
+        "grid",
+        "ingest"
+      ],
+      "summary": "Secondary Grid view on the decision wheel lists every public-art still ingested into TasteGraph (compressed offline love-batch screenshots). Toggle Wheel | Grid in the top bar, deep-link with ?view=grid, filter by register, lightbox + source links when known.",
+      "highlights": [
+        "Wheel | Grid view toggle (pauses Three.js when browsing the grid)",
+        "157 public-art stills under /wheel/ingest/ with ingest-stills.json catalog",
+        "Register filter chips + featured badges for pie stills",
+        "Deep link: https://tastegraph.jonbailey.xyz/wheel/?view=grid"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "grid": "https://tastegraph.jonbailey.xyz/wheel/?view=grid",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/ingest-stills.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-7"
+      }
+    },
+    {
+      "version": "1.3.6",
+      "date": "2026-08-06",
+      "title": "August 6 love dump pie refresh + full backlinks",
+      "tags": [
+        "wheel",
+        "sources",
+        "catalog"
+      ],
+      "summary": "Decision wheel refreshed from a 36-post public X love dump. Every featured still ships with Source @handle + post URL. Contributing-sources catalog rebuilt from the full offline evidence map (131 links) so the side panel lists every backlink, not only wedge stills.",
+      "highlights": [
+        "18 featured stills replaced with v136 cache-bust assets (all with credit + href)",
+        "36 new posts in evidence batch love-2026-08-06-dump (image + video)",
+        "131 contributing sources in /wheel/contributing-sources.json (99 image, 32 video)",
+        "Peaks: GalacticStones megalith, chxrxg heroes, booterart overhead, rare_jpg circuit cat, iamlaurael physical paint"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-6",
+        "sources": [
+          "https://x.com/booterart/status/2085452684598169809",
+          "https://x.com/GalacticStones/status/2085378752830464155",
+          "https://x.com/chxrxg/status/2085350177158901778",
+          "https://x.com/rare_jpg/status/2085286254719992306",
+          "https://x.com/iamlaurael/status/2085396076933099941",
+          "https://x.com/sergeantsref/status/2085490096648695843",
+          "https://x.com/cromsovertures/status/2085288481601753121",
+          "https://x.com/AfnanFatimas/status/2084996341953098182"
+        ]
+      }
+    },
+    {
+      "version": "1.3.4-sources",
+      "date": "2026-08-05",
+      "title": "Full contributing sources catalog in wheel panel",
+      "tags": [
+        "wheel",
+        "sources",
+        "catalog"
+      ],
+      "summary": "Side panel now tracks every public art/image/video/craft post that informed TasteGraph. Collapsed lists: All contributing sources (empty state) and More sources for this register (per slice). Machine-readable twin at /wheel/contributing-sources.json. Offline evidence-map expanded with Kali batch post IDs.",
+      "highlights": [
+        "75+ contributing links in public catalog (image + video + craft)",
+        "Collapsed-by-default UI so featured stills stay primary",
+        "Footer link to full JSON; SOP updated for ingest-every-batch"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "catalog": "https://tastegraph.jonbailey.xyz/wheel/contributing-sources.json",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-4-sources"
+      }
+    },
+    {
+      "version": "1.3.4",
+      "date": "2026-08-05",
+      "title": "Kali Things craft + mythos pie refresh",
+      "tags": [
+        "wheel",
+        "sources",
+        "craft"
+      ],
+      "summary": "Decision wheel examples refreshed from the Kali Things public X dump: sacred tech objects, Star Samurai, RESPAWN void, Motoko cyber portrait, Kling 3 hero motion, UI8 portfolio physics, Framer shaders footer, and confidential-file secrecy chrome. Every example keeps Source @handle links. Offline graph 1.3.4 + free Framer marketplace watchlist in framer-agents skill.",
+      "highlights": [
+        "New stills: myth-tech sacred objects + Star Samurai; fashion Motoko + wrath figure",
+        "Pro/defensive craft: Framer shaders footer + confidential folder-reveal frames",
+        "Motion: Kling 3 hero plate + UI8 physics portfolio",
+        "Skills: framer free-marketplace watchlist; cinematic/minimax/scroll patterns already patched"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-4",
+        "sources": [
+          "https://x.com/piotrbinkowski/status/2084642435175473662",
+          "https://x.com/pilgrim_wander/status/2084618486886621430",
+          "https://x.com/Ultima1138/status/2084683156586631230",
+          "https://x.com/lyn_beatz/status/2084684737533337643",
+          "https://x.com/Julianc_AI2/status/2084780712176103667",
+          "https://x.com/AdityaSur11/status/2084844344259776904",
+          "https://x.com/rcharl03/status/2084908262584123531",
+          "https://x.com/elayadesigns/status/2084908433950785757",
+          "https://x.com/creativedash/status/2085012706302800313",
+          "https://x.com/mnowakdesign/status/2084611335346925670"
+        ]
+      }
+    },
+    {
+      "version": "1.3.3",
+      "date": "2026-08-05",
+      "title": "Wheel refresh with real public stills + source links",
+      "tags": [
+        "wheel",
+        "sources"
+      ],
+      "summary": "Decision wheel examples rebuilt from public art, design, type, and UI posts. Every non-synthetic still includes Source @handle linking to the original X post. Light reweight toward film-seed motion, speculative mythos, and pro UI craft.",
+      "highlights": [
+        "18 examples across 8 registers, all with public source URLs",
+        "Peaks: industrial scale figure, cosmic gothic void, underused editorial serifs",
+        "Standing rule: source links required on public-art pie examples when known",
+        "Build gate: npm run check-sources before wheel deploy"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-3-3"
+      }
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-08-04",
+      "title": "Public site + interactive 3D decision wheel",
+      "tags": [
+        "launch",
+        "wheel"
+      ],
+      "summary": "Product landing, MIT open-source skill repo, and Three.js decision-weight wheel. Exact arcs sum to 360 degrees.",
+      "highlights": [
+        "Agent skill: schema, validate, export system prompt + Markdown dashboard",
+        "Privacy-first: local files, no PII in schema samples",
+        "OG / tweet card ready for share previews"
+      ],
+      "links": {
+        "wheel": "https://tastegraph.jonbailey.xyz/wheel/",
+        "page_anchor": "https://tastegraph.jonbailey.xyz/updates/#v1-1-0"
+      }
+    }
+  ]
+}

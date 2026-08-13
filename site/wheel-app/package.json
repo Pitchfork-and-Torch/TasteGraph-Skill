@@ -1,0 +1,19 @@
+{
+  "name": "tastegraph-pie-3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5177",
+    "check-sources": "node scripts/check-example-sources.mjs",
+    "build-ingest": "py -3 scripts/build_ingest_grid.py",
+    "build": "node scripts/check-example-sources.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5177"
+  },
+  "dependencies": {
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
