@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TasteGraph - Living personal taste graph</title>
+  <meta name="description" content="Local-first personal TasteGraph: structured loves, antis, registers, and a 3D decision wheel. Open-source agent skill." />
+  <meta name="theme-color" content="#0b0c0f" />
+  <link rel="canonical" href="https://tastegraph.jonbailey.xyz/" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="alternate" type="text/plain" href="/llms.txt" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TasteGraph" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="TasteGraph - Living personal taste graph" />
+  <meta property="og:description" content="Local-first structured preference graph for aesthetic, creative, design, and cultural taste. Explore the interactive decision wheel." />
+  <meta property="og:url" content="https://tastegraph.jonbailey.xyz/" />
+  <meta property="og:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15" />
+  <meta property="og:image:secure_url" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="TasteGraph gold constellation mark on charcoal" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@suddenlyjon" />
+  <meta name="twitter:creator" content="@suddenlyjon" />
+  <meta name="twitter:title" content="TasteGraph - Living personal taste graph" />
+  <meta name="twitter:description" content="Local-first structured preference graph. Explore the interactive 3D decision wheel." />
+  <meta name="twitter:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15" />
+  <meta name="twitter:image:alt" content="TasteGraph gold constellation mark on charcoal" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "TasteGraph",
+    "applicationCategory": "DesignApplication",
+    "operatingSystem": "Any",
+    "softwareVersion": "1.3.15",
+    "url": "https://tastegraph.jonbailey.xyz/",
+    "image": "https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15",
+    "description": "Local-first personal taste graph with interactive 3D decision wheel.",
+    "license": "https://opensource.org/licenses/MIT",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "codeRepository": "https://github.com/Pitchfork-and-Torch/TasteGraph-Skill"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&f[]=clash-display@500,600,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --panel: #12141a;
+      --ink: #ece8e1;
+      --muted: #9a948a;
+      --faint: #5c574f;
+      --gold: #d4a85a;
+      --gold-soft: rgba(212, 168, 90, 0.14);
+      --line: #2a2d36;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      --spot-x: 20%;
+      --spot-y: 12%;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .fx-root {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .fx-aurora {
+      position: absolute;
+      inset: -20%;
+      background:
+        radial-gradient(ellipse 50% 40% at var(--spot-x) var(--spot-y), rgba(212,168,90,0.16), transparent 55%),
+        radial-gradient(ellipse 40% 35% at 85% 70%, rgba(90,140,180,0.08), transparent 50%),
+        radial-gradient(ellipse 30% 25% at 10% 80%, rgba(212,168,90,0.05), transparent 45%);
+      transition: background-position 0.4s var(--ease);
+      animation: aurora-breathe 12s ease-in-out infinite alternate;
+    }
+    @keyframes aurora-breathe {
+      from { filter: saturate(1) brightness(1); transform: scale(1); }
+      to { filter: saturate(1.15) brightness(1.08); transform: scale(1.04); }
+    }
+    #stars {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.55;
+    }
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 24px 88px;
+    }
+
+    /* Enter animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+    }
+    .reveal.is-in {
+      opacity: 1;
+      transform: none;
+    }
+    .reveal.d1 { transition-delay: 0.05s; }
+    .reveal.d2 { transition-delay: 0.12s; }
+    .reveal.d3 { transition-delay: 0.2s; }
+    .reveal.d4 { transition-delay: 0.28s; }
+    .reveal.d5 { transition-delay: 0.36s; }
+    .reveal.d6 { transition-delay: 0.44s; }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 44px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .mark {
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      position: relative;
+      box-shadow:
+        0 0 0 1px rgba(212,168,90,0.25),
+        0 12px 40px rgba(0,0,0,0.45);
+      overflow: hidden;
+      transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
+    }
+    .mark:hover {
+      transform: translateY(-3px) rotate(-2deg) scale(1.04);
+      box-shadow:
+        0 0 0 1px rgba(212,168,90,0.45),
+        0 0 32px rgba(212,168,90,0.18),
+        0 16px 48px rgba(0,0,0,0.5);
+    }
+    .mark img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 16px;
+    }
+    .mark::after {
+      content: "";
+      position: absolute;
+      inset: -40%;
+      background: linear-gradient(120deg, transparent 40%, rgba(255,255,255,0.22) 50%, transparent 60%);
+      transform: translateX(-60%);
+      transition: transform 0.7s var(--ease);
+    }
+    .mark:hover::after { transform: translateX(60%); }
+    .brand-text .kicker {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .brand-text .name {
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s var(--ease);
+    }
+    .nav-links a:hover {
+      color: var(--ink);
+      border-color: var(--line);
+      background: rgba(255,255,255,0.03);
+      transform: translateY(-1px);
+    }
+
+    h1 {
+      font-family: "Clash Display", "Satoshi", sans-serif;
+      font-size: clamp(34px, 5.4vw, 52px);
+      letter-spacing: -0.035em;
+      line-height: 1.06;
+      margin-bottom: 16px;
+      max-width: 16ch;
+    }
+    h1 .glow-word {
+      background: linear-gradient(120deg, #f0e0b8 0%, var(--gold) 40%, #a8c8e0 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: sheen 6s linear infinite;
+    }
+    @keyframes sheen {
+      to { background-position: 200% center; }
+    }
+    .lede {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 58ch;
+      margin-bottom: 26px;
+    }
+
+    .regs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+    .reg {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      background: rgba(18,20,26,0.7);
+      padding: 7px 11px;
+      border-radius: 999px;
+      transition: color 0.2s ease, border-color 0.2s ease, transform 0.25s var(--ease), box-shadow 0.25s ease, background 0.2s ease;
+      cursor: default;
+    }
+    .reg:hover {
+      color: #12100a;
+      background: var(--gold);
+      border-color: transparent;
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 8px 24px rgba(212,168,90,0.22);
+    }
+
+    .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 42px; }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 13px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.25s var(--ease), border-color 0.2s ease, box-shadow 0.25s ease, background 0.2s ease;
+    }
+    a.btn .arrow {
+      transition: transform 0.25s var(--ease);
+      display: inline-block;
+    }
+    a.btn:hover .arrow { transform: translateX(3px); }
+    a.btn.primary {
+      background: linear-gradient(135deg, #e2c07a, var(--gold) 50%, #b8893a);
+      color: #12100a;
+      border-color: transparent;
+      box-shadow: 0 8px 28px rgba(212,168,90,0.22);
+    }
+    a.btn.primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 36px rgba(212,168,90,0.32);
+    }
+    a.btn.primary::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,0.35) 50%, transparent 70%);
+      transform: translateX(-120%);
+      transition: transform 0.55s var(--ease);
+    }
+    a.btn.primary:hover::after { transform: translateX(120%); }
+    a.btn.ghost {
+      color: var(--ink);
+      background: rgba(18,20,26,0.75);
+      backdrop-filter: blur(8px);
+    }
+    a.btn.ghost:hover {
+      transform: translateY(-2px);
+      border-color: rgba(212,168,90,0.35);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
+    }
+
+    .feature {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 16px;
+      margin-bottom: 22px;
+      align-items: stretch;
+    }
+    .feature-card {
+      background: rgba(18,20,26,0.82);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.35s var(--ease), border-color 0.25s ease, box-shadow 0.35s ease;
+    }
+    .feature-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 0%), rgba(212,168,90,0.12), transparent 45%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(212,168,90,0.35);
+      box-shadow: 0 18px 50px rgba(0,0,0,0.35);
+    }
+    .feature-card:hover::before { opacity: 1; }
+    .feature-card.hero {
+      background:
+        radial-gradient(ellipse 90% 70% at 90% 10%, rgba(212,168,90,0.14), transparent 50%),
+        rgba(18,20,26,0.88);
+    }
+    .feature-card .orbit {
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 1px dashed rgba(212,168,90,0.28);
+      animation: spin 18s linear infinite;
+      pointer-events: none;
+    }
+    .feature-card .orbit::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 12px rgba(212,168,90,0.8);
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .feature-card h2 {
+      font-family: "Clash Display", sans-serif;
+      font-size: 24px;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+      position: relative;
+    }
+    .feature-card p {
+      color: var(--muted);
+      font-size: 14.5px;
+      margin-bottom: 18px;
+      position: relative;
+      max-width: 42ch;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    .card {
+      background: rgba(18,20,26,0.75);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s var(--ease), border-color 0.25s ease, box-shadow 0.3s ease;
+    }
+    .card::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, transparent, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(212,168,90,0.3);
+      box-shadow: 0 14px 36px rgba(0,0,0,0.28);
+    }
+    .card:hover::after { opacity: 1; }
+    .card .icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: var(--gold-soft);
+      border: 1px solid rgba(212,168,90,0.25);
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 700;
+      transition: transform 0.3s var(--ease);
+    }
+    .card:hover .icon { transform: scale(1.08) rotate(-4deg); }
+    .card h3 { font-size: 15px; margin-bottom: 8px; letter-spacing: -0.01em; }
+    .card p { color: var(--muted); font-size: 13.5px; }
+
+    .strip {
+      margin-top: 28px;
+      padding: 16px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(212,168,90,0.08), transparent 40%, rgba(126,184,200,0.05));
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .strip p { color: var(--muted); font-size: 13.5px; }
+    .strip a {
+      color: var(--gold);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 13.5px;
+    }
+    .strip a:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 52px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+    }
+    footer a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+    footer a:hover { color: #f0e0b8; }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+      .feature { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+      .fx-aurora { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="fx-root" aria-hidden="true">
+    <div class="fx-aurora" id="aurora"></div>
+    <canvas id="stars"></canvas>
+  </div>
+
+  <div class="wrap">
+    <header class="reveal">
+      <div class="brand">
+        <a class="mark" href="/" aria-label="TasteGraph home">
+          <img src="/icon-512.png" width="64" height="64" alt="" />
+        </a>
+        <div class="brand-text">
+          <div class="kicker">Open source · local-first</div>
+          <div class="name">TasteGraph</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Site">
+        <a href="/wheel/">Wheel</a>
+        <a href="/updates/">Updates</a>
+        <a href="/wheel/contributing-sources.json">Sources JSON</a>
+        <a href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill">GitHub</a>
+      </nav>
+    </header>
+
+    <p class="kicker reveal d1" style="color:var(--gold);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:700;margin-bottom:12px;">
+      Living preference graph
+    </p>
+    <h1 class="reveal d1">A living graph of what you <span class="glow-word">love</span> - and what you refuse.</h1>
+    <p class="lede reveal d2">
+      Build a structured, versioned personal TasteGraph from images and feedback.
+      Export system prompts for image models. Explore the interactive decision wheel.
+      Privacy-first files on your disk. MIT open source.
+    </p>
+
+    <div class="regs reveal d2" aria-label="Taste registers">
+      <span class="reg">Music</span>
+      <span class="reg">Myth-tech</span>
+      <span class="reg">Sketch</span>
+      <span class="reg">Defensive</span>
+      <span class="reg">Motion</span>
+      <span class="reg">Pro UI</span>
+      <span class="reg">Speculative</span>
+      <span class="reg">Fashion</span>
+    </div>
+
+    <div class="cta reveal d3">
+      <a class="btn primary" href="/wheel/">Explore the 3D wheel <span class="arrow" aria-hidden="true">→</span></a>
+      <a class="btn ghost" href="/updates/">Updates</a>
+      <a class="btn ghost" href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill">GitHub</a>
+      <a class="btn ghost" href="/llms.txt">llms.txt</a>
+    </div>
+
+    <div class="feature reveal d4">
+      <div class="feature-card hero" data-tilt>
+        <div class="orbit" aria-hidden="true"></div>
+        <div class="badge">Interactive</div>
+        <h2>Decision weight wheel</h2>
+        <p>
+          Exact arcs for each taste register. Hover a slice to lift it, read the meaning,
+          and browse real stills with links to public X sources. Full contributing catalog
+          in a collapsible panel. Graph 1.3.15.
+        </p>
+        <a class="btn primary" href="/wheel/">Open wheel <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div class="feature-card" data-tilt>
+        <div class="badge">Agent skill</div>
+        <h2>Structured graph + exports</h2>
+        <p>
+          JSON Schema, validate, Markdown dashboard, and system-prompt export for Imagine
+          and other generators. Works with Grok skills and general agents.
+        </p>
+        <a class="btn ghost" href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill">View source</a>
+      </div>
+    </div>
+
+    <div class="grid reveal d5">
+      <div class="card" data-tilt>
+        <div class="icon" aria-hidden="true">G</div>
+        <h3>Structured graph</h3>
+        <p>Loves, antis, registers, motion stack, density, color, process values, north star.</p>
+      </div>
+      <div class="card" data-tilt>
+        <div class="icon" aria-hidden="true">P</div>
+        <h3>Privacy first</h3>
+        <p>Local files only. No PII in schema or examples. Synthetic sample included.</p>
+      </div>
+      <div class="card" data-tilt>
+        <div class="icon" aria-hidden="true">X</div>
+        <h3>Generation ready</h3>
+        <p>Export a system prompt that obeys hard antis when models generate visuals.</p>
+      </div>
+      <div class="card" data-tilt>
+        <div class="icon" aria-hidden="true">°</div>
+        <h3>Exact weights</h3>
+        <p>Wheel arcs sum to 360 degrees - decision weight, not decoration.</p>
+      </div>
+    </div>
+
+    <div class="strip reveal d6">
+      <p>Every public art, image, video, and craft post that informed the graph is tracked.</p>
+      <a href="/wheel/contributing-sources.json">Browse contributing sources →</a>
+    </div>
+
+    <footer class="reveal d6">
+      <span>v1.3.15 · MIT</span>
+      <a href="/wheel/">Wheel</a>
+      <a href="/updates/">Updates</a>
+      <a href="/updates/log.json">log.json</a>
+      <a href="/wheel/contributing-sources.json">sources</a>
+      <a href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill">Source</a>
+      <a href="https://jonbailey.xyz">jonbailey.xyz</a>
+      <a href="https://x.com/suddenlyjon">@suddenlyjon</a>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var root = document.documentElement;
+
+      // Staggered reveal
+      var nodes = document.querySelectorAll(".reveal");
+      if (reduce) {
+        nodes.forEach(function (n) { n.classList.add("is-in"); });
+      } else if ("IntersectionObserver" in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add("is-in");
+              io.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+        nodes.forEach(function (n) { io.observe(n); });
+        // hero always in
+        setTimeout(function () {
+          nodes.forEach(function (n) {
+            if (n.getBoundingClientRect().top < window.innerHeight) n.classList.add("is-in");
+          });
+        }, 40);
+      } else {
+        nodes.forEach(function (n) { n.classList.add("is-in"); });
+      }
+
+      // Spotlight follows pointer
+      var aurora = document.getElementById("aurora");
+      function onMove(e) {
+        var x = (e.clientX / window.innerWidth) * 100;
+        var y = (e.clientY / window.innerHeight) * 100;
+        root.style.setProperty("--spot-x", x.toFixed(2) + "%");
+        root.style.setProperty("--spot-y", y.toFixed(2) + "%");
+      }
+      if (!reduce) {
+        window.addEventListener("pointermove", onMove, { passive: true });
+      }
+
+      // Card spotlight
+      document.querySelectorAll("[data-tilt]").forEach(function (card) {
+        card.addEventListener("pointermove", function (e) {
+          var r = card.getBoundingClientRect();
+          card.style.setProperty("--mx", (e.clientX - r.left) + "px");
+          card.style.setProperty("--my", (e.clientY - r.top) + "px");
+        });
+      });
+
+      // Constellation canvas
+      var canvas = document.getElementById("stars");
+      if (!canvas || reduce) return;
+      var ctx = canvas.getContext("2d");
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      var dots = [];
+      var W = 0, H = 0;
+
+      function resize() {
+        W = window.innerWidth;
+        H = window.innerHeight;
+        canvas.width = Math.floor(W * dpr);
+        canvas.height = Math.floor(H * dpr);
+        canvas.style.width = W + "px";
+        canvas.style.height = H + "px";
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        var n = Math.floor((W * H) / 14000);
+        dots = [];
+        for (var i = 0; i < n; i++) {
+          dots.push({
+            x: Math.random() * W,
+            y: Math.random() * H,
+            r: 0.4 + Math.random() * 1.4,
+            vx: (Math.random() - 0.5) * 0.12,
+            vy: (Math.random() - 0.5) * 0.12,
+            a: 0.2 + Math.random() * 0.55
+          });
+        }
+      }
+
+      function frame() {
+        ctx.clearRect(0, 0, W, H);
+        for (var i = 0; i < dots.length; i++) {
+          var p = dots[i];
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.x < 0) p.x = W;
+          if (p.x > W) p.x = 0;
+          if (p.y < 0) p.y = H;
+          if (p.y > H) p.y = 0;
+          ctx.beginPath();
+          ctx.fillStyle = "rgba(232,201,138," + p.a + ")";
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        // faint links
+        ctx.lineWidth = 0.6;
+        for (var a = 0; a < dots.length; a++) {
+          for (var b = a + 1; b < dots.length; b++) {
+            var dx = dots[a].x - dots[b].x;
+            var dy = dots[a].y - dots[b].y;
+            var d2 = dx * dx + dy * dy;
+            if (d2 < 110 * 110) {
+              var alpha = 0.08 * (1 - Math.sqrt(d2) / 110);
+              ctx.strokeStyle = "rgba(212,168,90," + alpha + ")";
+              ctx.beginPath();
+              ctx.moveTo(dots[a].x, dots[a].y);
+              ctx.lineTo(dots[b].x, dots[b].y);
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(frame);
+      }
+
+      resize();
+      window.addEventListener("resize", resize, { passive: true });
+      requestAnimationFrame(frame);
+    })();
+  </script>
+  <script defer src="https://hits.jonbailey.xyz/c.js" data-site="tastegraph"></script>
+</body>
+</html>
