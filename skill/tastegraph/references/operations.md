@@ -83,18 +83,11 @@ If comparing to public anonymized graphs:
 
 Do **not** run multi-line `powershell -NoProfile -NonInteractive -Command "..."` paste blocks for CACHEBUST + Invoke-RestMethod smokes. Defender labels those as `Trojan:Win32/ClickFix.*` (false positive; same family as social-engineered paste attacks).
 
-Use the on-disk script:
+Use the on-disk script from this repo (repo-relative; do not paste home paths):
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File $env:USERPROFILE\tastegraph-skill\scripts\ship-verify.ps1 -Version 1.3.11
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\ship-verify.ps1 -Version 1.3.15
 # optional: -WriteCachebust
 ```
 
-If ClickFix pops again:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File $env:USERPROFILE\.grok\scripts\Fix-ClickFixFalsePositive.ps1
-```
-
-That script clears inactive FP threats and ensures path exclusions for `tastegraph-skill`, `.grok\scripts`, `SkyCache`, `skycache-web`.
-- User must opt in
+If Defender ClickFix false positives persist, use the operator's local exclusion helper (not in this repo). User must opt in.

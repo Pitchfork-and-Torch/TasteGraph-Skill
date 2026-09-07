@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://tastegraph.jonbailey.xyz/"><img src="https://img.shields.io/badge/live-tastegraph.jonbailey.xyz-7c5cff" alt="Live" /></a>
+  <a href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill/releases/tag/v1.3.15"><img src="https://img.shields.io/badge/version-1.3.15-7c5cff" alt="Version 1.3.15" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
   <a href="https://github.com/Pitchfork-and-Torch/TasteGraph-Skill/releases/latest"><img src="https://img.shields.io/github/v/release/Pitchfork-and-Torch/TasteGraph-Skill?label=release" alt="Release" /></a>
 </p>
@@ -61,14 +62,14 @@ Restart or reload skills so the agent sees the new description.
 ### Option B - clone this repo
 
 ```bash
-git clone https://github.com/Pitchfork-and-Torch/tastegraph-skill.git
+git clone https://github.com/Pitchfork-and-Torch/TasteGraph-Skill.git
 # then copy or symlink skill/tastegraph into your skills path
 ```
 
 ### Python helpers (optional but recommended)
 
 ```bash
-cd tastegraph-skill
+cd TasteGraph-Skill
 python -m pip install -r requirements.txt
 python skill/tastegraph/scripts/validate_tastegraph.py examples/sample-tastegraph.json
 ```
@@ -104,6 +105,16 @@ python skill/tastegraph/scripts/render_dashboard_html.py examples/sample-tastegr
   --out tastegraph-dashboard.html
 ```
 
+## Live site
+
+Public product chrome on Cloudflare Pages, version **1.3.15** (see `VERSION`):
+
+- Site: https://tastegraph.jonbailey.xyz/
+- Wheel: https://tastegraph.jonbailey.xyz/wheel/
+- Updates: https://tastegraph.jonbailey.xyz/updates/
+- Updates JSON: https://tastegraph.jonbailey.xyz/updates/log.json
+- llms.txt: https://tastegraph.jonbailey.xyz/llms.txt
+
 ## Brand
 
 | Asset | Use |
@@ -118,7 +129,8 @@ Mark language: gold constellation graph on charcoal - one hero node, living edge
 ## Repository layout
 
 ```text
-tastegraph-skill/
+TasteGraph-Skill/
+  VERSION                    # public site / wheel stamp (1.3.15)
   README.md
   LICENSE
   CONTRIBUTING.md
@@ -129,6 +141,10 @@ tastegraph-skill/
     sample-tastegraph.json
     sample-TasteGraph.md
     sample-dashboard.html
+  scripts/                   # ship-verify helper (optional)
+  site/                      # Cloudflare Pages (tastegraph.jonbailey.xyz)
+    public/                  # deployed static output
+    wheel-app/               # Three.js wheel source
   skill/tastegraph/
     SKILL.md
     assets/                  # skill-local copies of the mark

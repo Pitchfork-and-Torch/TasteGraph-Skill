@@ -65,7 +65,7 @@ Toggle **Wheel | Grid** in the top bar (or open `/wheel/?view=grid`).
 The grid lists every public-art still compressed from offline love-batch screenshots into
 `public/ingest/`, catalogued by `public/ingest-stills.json`.
 
-Regenerate on the operator machine (needs offline `~/.grok/meta-collab-os/references/love-*`):
+Regenerate on the operator machine (needs offline public love-batch screenshots, not in this repo):
 
 ```bash
 npm run build-ingest

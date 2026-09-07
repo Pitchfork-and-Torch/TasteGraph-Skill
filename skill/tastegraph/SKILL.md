@@ -58,7 +58,7 @@ When updating the **public** decision wheel (`tastegraph.jonbailey.xyz/wheel/`, 
 1. **Standard fare:** if an example still comes from a public art / design / type / UI tweet (or similar public post), include **both** `credit: "@handle"` and `href: "https://x.com/.../status/..."`.
 2. Do not ship caption-only public-art stills when the URL is known or in the offline evidence map.
 3. Synthetic-only stills may omit `href`; label credit as synthetic.
-4. Full SOP (Knock): `~/.grok/meta-collab-os/PUBLIC-PIE-SOURCE-LINKS.md`
+4. Full SOP lives offline with the operator. Do not write private machine paths into the repo.
 5. On love ingest: append post_id + url to offline `evidence-map.json`.
 6. **Dump size gate (standing 2026-08-10):** if the dump has **more than 10 unique public links**, ship **both wheel wedges and grid** same turn (examples + ingest-stills + contributing-sources + updates log). Dumps of 1-10 stay offline unless the operator asks for pie/grid.
 7. **Public update log:** every material public wheel or site ship also appends to `/updates/` + `/updates/log.json` on the product site (newest first).

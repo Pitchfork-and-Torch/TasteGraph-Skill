@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Build public ingest stills grid from offline love-batch screenshots.
 
-Copies + compresses every public-art still under
-  ~/.grok/meta-collab-os/references/love-*
-into wheel-app/public/ingest/ and writes ingest-stills.json
+Copies + compresses every public-art still from the operator
+offline love-batch folder into wheel-app/public/ingest/ and writes ingest-stills.json
 with credit + post URL when recoverable from contributing-sources
 or evidence-map (no private paths in the public catalog).
 
