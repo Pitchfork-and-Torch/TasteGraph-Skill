@@ -609,6 +609,10 @@ function setViewMode(mode, { pushUrl = true } = {}) {
       const url = new URL(window.location.href);
       if (isGrid) url.searchParams.set("view", "grid");
       else url.searchParams.delete("view");
+      // Drop stale #grid so Wheel mode survives reload/share (hash still selects grid on load).
+      if (!isGrid && (url.hash || "").replace(/^#/, "").toLowerCase() === "grid") {
+        url.hash = "";
+      }
       // Keep path; replace history without reload
       window.history.replaceState({ view: next }, "", url.pathname + url.search + url.hash);
     } catch {
