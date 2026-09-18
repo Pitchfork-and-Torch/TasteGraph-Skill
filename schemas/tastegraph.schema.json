@@ -1,0 +1,360 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Pitchfork-and-Torch/tastegraph-skill/schemas/tastegraph.schema.json",
+  "title": "TasteGraph",
+  "description": "Living multi-dimensional personal preference graph for aesthetic, creative, design, and cultural taste. Local-first. No PII.",
+  "type": "object",
+  "required": ["metadata", "north_star", "hard_loves", "hard_antis"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["schema_version", "graph_version", "created", "updated", "domains"],
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Schema version this graph conforms to"
+        },
+        "graph_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Semantic version of this graph instance"
+        },
+        "created": { "type": "string", "format": "date" },
+        "updated": { "type": "string", "format": "date" },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "visual_art",
+              "ui_ux",
+              "product_design",
+              "music",
+              "fashion",
+              "film_motion",
+              "myth_tech",
+              "writing",
+              "architecture",
+              "other"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional short label for this graph (no real names)"
+        },
+        "locale": { "type": "string", "default": "en" }
+      }
+    },
+    "core_identity": {
+      "type": "array",
+      "description": "Who this taste serves (roles, not legal identity)",
+      "items": { "$ref": "#/$defs/identityNode" }
+    },
+    "emotional_registers": {
+      "type": "array",
+      "description": "Aesthetic modes / planets. Pick one before inventing style.",
+      "items": { "$ref": "#/$defs/registerNode" }
+    },
+    "hard_loves": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/preferenceNode" }
+    },
+    "hard_antis": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/preferenceNode" }
+    },
+    "motion_stack": {
+      "type": "array",
+      "description": "Ordered preference for motion / animation / tech escalation",
+      "items": { "$ref": "#/$defs/stackStep" }
+    },
+    "density_by_surface": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/densityRule" }
+    },
+    "color_temperature": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/paletteRule" }
+    },
+    "process_values": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/processNode" }
+    },
+    "quick_tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1, "maxLength": 48 },
+      "uniqueItems": true
+    },
+    "collaboration_protocol": {
+      "type": "array",
+      "description": "Ordered steps for collaborators and agents",
+      "items": {
+        "type": "object",
+        "required": ["step", "instruction"],
+        "additionalProperties": false,
+        "properties": {
+          "step": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "instruction": { "type": "string" }
+        }
+      }
+    },
+    "north_star": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 600,
+      "description": "Single sentence governing every decision"
+    },
+    "evidence_log": {
+      "type": "array",
+      "description": "Anonymized evidence only. No URLs that identify a person, no names, no private paths.",
+      "items": { "$ref": "#/$defs/evidenceEntry" }
+    },
+    "affinity_graph": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/graphNode" }
+        },
+        "edges": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/graphEdge" }
+        }
+      }
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "date", "summary"],
+        "additionalProperties": false,
+        "properties": {
+          "version": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "summary": { "type": "string" },
+          "changes": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "confidence": {
+      "type": "string",
+      "enum": ["H", "M", "L"],
+      "description": "H=repeated evidence, M=clear once+pattern, L=inferred"
+    },
+    "identityNode": {
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "strength": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "registerNode": {
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "tone": { "type": "string" },
+        "confidence": { "$ref": "#/$defs/confidence" }
+      }
+    },
+    "preferenceNode": {
+      "type": "object",
+      "required": ["id", "label", "category"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9_\\.\\-]*$" },
+        "label": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": [
+            "visual",
+            "motion",
+            "interaction",
+            "color",
+            "typography",
+            "sound",
+            "process",
+            "content",
+            "material",
+            "other"
+          ]
+        },
+        "description": { "type": "string" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "strength": { "type": "number", "minimum": 0, "maximum": 1 },
+        "evidence_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "rarity": {
+          "type": "string",
+          "enum": ["common", "uncommon", "signature"],
+          "description": "How distinctive this preference is relative to mainstream defaults"
+        },
+        "domains": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "stackStep": {
+      "type": "object",
+      "required": ["order", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "order": { "type": "integer", "minimum": 1 },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "when": { "type": "string" }
+      }
+    },
+    "densityRule": {
+      "type": "object",
+      "required": ["surface", "density"],
+      "additionalProperties": false,
+      "properties": {
+        "surface": { "type": "string" },
+        "density": {
+          "type": "string",
+          "enum": ["sparse", "medium_low", "medium", "medium_high", "dense"]
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "paletteRule": {
+      "type": "object",
+      "required": ["register", "temperature"],
+      "additionalProperties": false,
+      "properties": {
+        "register": { "type": "string" },
+        "temperature": {
+          "type": "string",
+          "enum": ["warm", "cool", "neutral", "dual", "high_contrast"]
+        },
+        "accents": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "processNode": {
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "friction_if_violated": { "type": "string" }
+      }
+    },
+    "evidenceEntry": {
+      "type": "object",
+      "required": ["id", "date", "kind", "summary"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "date": { "type": "string", "format": "date" },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "image",
+            "text_feedback",
+            "generation_outcome",
+            "love_list",
+            "anti_list",
+            "other"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "description": "Anonymized. No personal names, private URLs, or machine paths."
+        },
+        "affect": {
+          "type": "string",
+          "enum": ["love", "like", "neutral", "dislike", "hate"]
+        },
+        "nodes_touched": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "confidence_delta": {
+          "type": "string",
+          "enum": ["up", "down", "none"]
+        }
+      }
+    },
+    "graphNode": {
+      "type": "object",
+      "required": ["id", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "identity",
+            "register",
+            "love",
+            "anti",
+            "motion",
+            "process",
+            "other"
+          ]
+        },
+        "strength": { "type": "number", "minimum": 0, "maximum": 1 },
+        "label": { "type": "string" }
+      }
+    },
+    "graphEdge": {
+      "type": "object",
+      "required": ["from", "to", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "from": { "type": "string" },
+        "to": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "SUPPORTS",
+            "OPPOSES",
+            "TENSION",
+            "CORRELATES",
+            "REQUIRES",
+            "ENABLES",
+            "DIFFERS",
+            "COMPLEMENTS"
+          ]
+        },
+        "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "resolution": { "type": "string" }
+      }
+    }
+  }
+}

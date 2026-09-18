@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "graph_version": "1.0.0",
+    "created": "2026-08-01",
+    "updated": "2026-08-04",
+    "domains": ["ui_ux", "visual_art", "product_design", "film_motion", "myth_tech"],
+    "title": "Synthetic Craft Operator",
+    "locale": "en"
+  },
+  "core_identity": [
+    {
+      "id": "sovereign_builder",
+      "label": "Sovereign builder",
+      "description": "Prefers owned stacks and local-first tools over platform rent as default.",
+      "confidence": "H",
+      "strength": 1.0
+    },
+    {
+      "id": "dual_register",
+      "label": "Dual register maker",
+      "description": "Switches between intimate atmospheric work and precise systems surfaces without blending them.",
+      "confidence": "H",
+      "strength": 0.95
+    },
+    {
+      "id": "portfolio_solar",
+      "label": "Portfolio solar system",
+      "description": "Many distinct planets under one craft gravity; resists homogenized landings.",
+      "confidence": "H",
+      "strength": 0.95
+    }
+  ],
+  "emotional_registers": [
+    {
+      "id": "intimate_atmosphere",
+      "label": "Intimate atmosphere",
+      "description": "Emotional voids, ambient density, redaction poetry energy",
+      "tone": "vulnerable, quiet, warm-cool dual",
+      "confidence": "H"
+    },
+    {
+      "id": "sketchbook_handmade",
+      "label": "Sketchbook handmade",
+      "description": "Travel ink diary, object-as-hero open book, soft field",
+      "tone": "observational, tactile",
+      "confidence": "H"
+    },
+    {
+      "id": "myth_tech",
+      "label": "Myth-tech",
+      "description": "Anachronistic high-tech artifacts, forgotten computation as museum object",
+      "tone": "archaeological, speculative",
+      "confidence": "H"
+    },
+    {
+      "id": "pro_product",
+      "label": "Pro product",
+      "description": "Calm hierarchy, portfolio-proof, conversion without spam",
+      "tone": "competent, clear",
+      "confidence": "H"
+    },
+    {
+      "id": "defensive_systems",
+      "label": "Defensive systems",
+      "description": "Cool dark, status greens, trust, fail-closed honesty",
+      "tone": "precise, sober",
+      "confidence": "H"
+    },
+    {
+      "id": "fashion_editorial",
+      "label": "Fashion editorial",
+      "description": "Runway clarity, high contrast, visual-first",
+      "tone": "elevated",
+      "confidence": "M"
+    }
+  ],
+  "hard_loves": [
+    {
+      "id": "vis.object_as_hero",
+      "label": "Object as hero",
+      "category": "visual",
+      "description": "One crafted physical metaphor owns the viewport; chrome nearly invisible.",
+      "confidence": "H",
+      "strength": 0.98,
+      "rarity": "signature",
+      "evidence_ids": ["ev_001", "ev_004"],
+      "domains": ["visual_art", "ui_ux"]
+    },
+    {
+      "id": "art.travel_ink_diary",
+      "label": "Travel ink diary",
+      "category": "visual",
+      "description": "Cream paper, cobalt ink, watercolor wash, red seal; Japan and East Asia travel subjects peak.",
+      "confidence": "H",
+      "strength": 0.99,
+      "rarity": "signature",
+      "evidence_ids": ["ev_002"],
+      "domains": ["visual_art"]
+    },
+    {
+      "id": "vis.anachronistic_hightech",
+      "label": "Anachronistic high-tech",
+      "category": "visual",
+      "description": "Forgotten computation as museum object: carved casings, ancient motifs, digital screens, black-void product photography. Concept requires museum-final polish.",
+      "confidence": "H",
+      "strength": 0.92,
+      "rarity": "signature",
+      "evidence_ids": ["ev_001", "ev_005"],
+      "notes": "Concept strong; unfinished intrigue is not enough.",
+      "domains": ["myth_tech", "visual_art"]
+    },
+    {
+      "id": "art.editorial_light_room",
+      "label": "Editorial light room",
+      "category": "visual",
+      "description": "Single interior hero, hard raking light, night vista, film grain. Still may seed a full motion picture.",
+      "confidence": "H",
+      "strength": 0.98,
+      "rarity": "signature",
+      "evidence_ids": ["ev_003"],
+      "domains": ["visual_art", "film_motion"]
+    },
+    {
+      "id": "mot.one_signature",
+      "label": "One signature moment",
+      "category": "motion",
+      "description": "Motion explains state. One signature moment per region. Never decoration-only.",
+      "confidence": "H",
+      "strength": 0.95,
+      "rarity": "uncommon",
+      "domains": ["ui_ux", "film_motion"]
+    },
+    {
+      "id": "art.still_as_film_seed",
+      "label": "Still as film seed",
+      "category": "process",
+      "description": "Best editorial stills are shot 1 of a film, not dead ends.",
+      "confidence": "H",
+      "strength": 0.95,
+      "rarity": "uncommon",
+      "evidence_ids": ["ev_003"],
+      "domains": ["film_motion"]
+    },
+    {
+      "id": "art.memento_cosmic",
+      "label": "Memento cosmic",
+      "category": "visual",
+      "description": "Surreal memento mori in starfield void; intimate object metaphor.",
+      "confidence": "H",
+      "strength": 0.97,
+      "rarity": "signature",
+      "evidence_ids": ["ev_004"],
+      "domains": ["visual_art"]
+    }
+  ],
+  "hard_antis": [
+    {
+      "id": "vis.anti.effect_soup",
+      "label": "Effect soup",
+      "category": "visual",
+      "description": "Glass + beam + aurora + 3D + confetti stacked without hierarchy.",
+      "confidence": "H",
+      "strength": 1.0,
+      "rarity": "common",
+      "evidence_ids": ["ev_010"],
+      "domains": ["ui_ux", "visual_art"]
+    },
+    {
+      "id": "vis.anti.purple_glass_2021",
+      "label": "Purple glass 2021",
+      "category": "visual",
+      "description": "Dated maximal frosted purple glassmorphism as default system look.",
+      "confidence": "H",
+      "strength": 1.0,
+      "rarity": "common"
+    },
+    {
+      "id": "col.anti.neon_vomit",
+      "label": "Neon vomit on product UI",
+      "category": "color",
+      "description": "Toxic multi-neon overload on dashboards and product chrome. Loud collage may be OK on pure art/fashion planets only.",
+      "confidence": "H",
+      "strength": 1.0,
+      "rarity": "common",
+      "evidence_ids": ["ev_011"]
+    },
+    {
+      "id": "proc.anti.fake_social_proof",
+      "label": "Fake social proof",
+      "category": "process",
+      "description": "Fake testimonials, spam scarcity timers, conversion theater.",
+      "confidence": "H",
+      "strength": 1.0,
+      "rarity": "common",
+      "evidence_ids": ["ev_012"]
+    },
+    {
+      "id": "vis.anti.ai_trend_mash",
+      "label": "AI trend mash",
+      "category": "visual",
+      "description": "Every internet trend in one frame (chrome skull + vaporwave + matrix + lens flares).",
+      "confidence": "H",
+      "strength": 1.0,
+      "rarity": "common",
+      "evidence_ids": ["ev_013"]
+    },
+    {
+      "id": "mot.anti.scroll_jack_mobile",
+      "label": "Scroll-jack mobile",
+      "category": "motion",
+      "description": "Multi-pin chaos and stolen scroll on mobile.",
+      "confidence": "H",
+      "strength": 1.0,
+      "rarity": "common"
+    }
+  ],
+  "motion_stack": [
+    {
+      "order": 1,
+      "label": "CSS micro",
+      "description": "Default. High-frequency chrome may be 0ms.",
+      "when": "Product chrome, hover, state"
+    },
+    {
+      "order": 2,
+      "label": "Lightweight JS timelines",
+      "description": "Mid complexity: stagger, SVG, object tweens (e.g. Anime.js class tools).",
+      "when": "Signature micro-sequences without full scroll cinema"
+    },
+    {
+      "order": 3,
+      "label": "Scroll cinema",
+      "description": "Pinned chapters, scrubbed storytelling (GSAP-class).",
+      "when": "Marketing flagships only"
+    },
+    {
+      "order": 4,
+      "label": "3D last",
+      "description": "Three.js product 3D. Never always-on game loops on marketing chrome.",
+      "when": "When 2D cannot carry the metaphor"
+    }
+  ],
+  "density_by_surface": [
+    {
+      "surface": "atmosphere_art",
+      "density": "medium_high",
+      "notes": "Intentional voids for emotion; not sparse SaaS empty"
+    },
+    {
+      "surface": "product_ui",
+      "density": "medium",
+      "notes": "Calm hierarchy, data-legible"
+    },
+    {
+      "surface": "defensive_systems",
+      "density": "dense",
+      "notes": "Dense OK if structure is crystal clear"
+    },
+    {
+      "surface": "editorial_still",
+      "density": "medium_low",
+      "notes": "Object or room owns the frame"
+    }
+  ],
+  "color_temperature": [
+    {
+      "register": "intimate_atmosphere",
+      "temperature": "dual",
+      "accents": ["ember", "gold", "moon cyan", "forest void"]
+    },
+    {
+      "register": "defensive_systems",
+      "temperature": "cool",
+      "accents": ["system green", "amber status"]
+    },
+    {
+      "register": "fashion_editorial",
+      "temperature": "high_contrast",
+      "accents": ["runway neutrals"]
+    },
+    {
+      "register": "pro_product",
+      "temperature": "neutral",
+      "accents": ["semantic tokens", "one brand accent"]
+    }
+  ],
+  "process_values": [
+    {
+      "id": "first_pass_ship",
+      "label": "First-pass ship",
+      "description": "Complete gate once; avoid multi-deploy fix storms.",
+      "confidence": "H",
+      "friction_if_violated": "Rework loops and trust loss"
+    },
+    {
+      "id": "polish_threshold",
+      "label": "Polish threshold",
+      "description": "High on public flagships and object-hero stills; concept without museum finish is a miss.",
+      "confidence": "H",
+      "friction_if_violated": "Intriguing but unfinished work"
+    },
+    {
+      "id": "register_before_style",
+      "label": "Register before style",
+      "description": "Classify planet/mode before inventing visual direction.",
+      "confidence": "H",
+      "friction_if_violated": "Homogenized satellites"
+    },
+    {
+      "id": "evidence_over_vibes",
+      "label": "Evidence over vibes",
+      "description": "Update graph from scored outcomes and explicit feedback.",
+      "confidence": "H",
+      "friction_if_violated": "Drift and repeat mistakes"
+    }
+  ],
+  "quick_tags": [
+    "object-as-hero",
+    "one-signature",
+    "ink-diary",
+    "myth-tech",
+    "museum-polish",
+    "still-as-film-seed",
+    "no-effect-soup",
+    "no-fake-proof",
+    "register-first",
+    "local-first"
+  ],
+  "collaboration_protocol": [
+    {
+      "step": 1,
+      "title": "Classify",
+      "instruction": "Pick emotional register / surface class before inventing style."
+    },
+    {
+      "step": 2,
+      "title": "Load nodes",
+      "instruction": "Apply matching density, color, motion, and non-negotiable antis."
+    },
+    {
+      "step": 3,
+      "title": "Distance check",
+      "instruction": "New work must not clone the nearest sibling planet. Prefer distinct worlds."
+    },
+    {
+      "step": 4,
+      "title": "Prove once",
+      "instruction": "If multi-modal, show variants. Ship with complete gate. Log outcome to evidence_log."
+    }
+  ],
+  "north_star": "One signature object or moment, register-true density and color, motion that informs, zero effect soup - across a solar system of distinct planets owned by a sovereign craft operator.",
+  "evidence_log": [
+    {
+      "id": "ev_001",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Synthetic museum still: ancient instrument fused with monochrome digital display on black void.",
+      "affect": "like",
+      "nodes_touched": ["vis.anachronistic_hightech", "vis.object_as_hero"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_002",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Open ink sketchbook with watercolor wash and East Asian travel subjects; red seal.",
+      "affect": "love",
+      "nodes_touched": ["art.travel_ink_diary", "vis.object_as_hero"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_003",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Single chair and plant in a night interior with red sun vista; operator wanted a full film of the scene.",
+      "affect": "love",
+      "nodes_touched": ["art.editorial_light_room", "art.still_as_film_seed"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_004",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Cosmic memento still: painted arm, rearview mirror, skull reflection on starfield.",
+      "affect": "love",
+      "nodes_touched": ["art.memento_cosmic", "vis.object_as_hero"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_005",
+      "date": "2026-08-04",
+      "kind": "text_feedback",
+      "summary": "Anachronistic high-tech concept praised; finish judged not museum-final.",
+      "affect": "like",
+      "nodes_touched": ["vis.anachronistic_hightech", "polish_threshold"],
+      "confidence_delta": "none"
+    },
+    {
+      "id": "ev_010",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Synthetic crypto SaaS landing with purple glass, confetti, multi-CTA spam.",
+      "affect": "hate",
+      "nodes_touched": ["vis.anti.effect_soup", "proc.anti.fake_social_proof"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_011",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Synthetic neon multi-color product dashboard with no hierarchy.",
+      "affect": "hate",
+      "nodes_touched": ["col.anti.neon_vomit"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_012",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Synthetic forced corporate high-five stock photo / conversion theater.",
+      "affect": "hate",
+      "nodes_touched": ["proc.anti.fake_social_proof"],
+      "confidence_delta": "up"
+    },
+    {
+      "id": "ev_013",
+      "date": "2026-08-04",
+      "kind": "image",
+      "summary": "Synthetic trend-mash poster: chrome skull, vaporwave, matrix, lens flares.",
+      "affect": "hate",
+      "nodes_touched": ["vis.anti.ai_trend_mash", "vis.anti.effect_soup"],
+      "confidence_delta": "up"
+    }
+  ],
+  "affinity_graph": {
+    "nodes": [
+      { "id": "vis.object_as_hero", "type": "love", "strength": 0.98, "label": "Object as hero" },
+      { "id": "vis.anachronistic_hightech", "type": "love", "strength": 0.92, "label": "Myth-tech" },
+      { "id": "art.travel_ink_diary", "type": "love", "strength": 0.99, "label": "Ink diary" },
+      { "id": "art.editorial_light_room", "type": "love", "strength": 0.98, "label": "Light room" },
+      { "id": "vis.anti.effect_soup", "type": "anti", "strength": 1.0, "label": "No effect soup" },
+      { "id": "mot.one_signature", "type": "motion", "strength": 0.95, "label": "One signature" },
+      { "id": "polish_threshold", "type": "process", "strength": 0.98, "label": "Polish gate" }
+    ],
+    "edges": [
+      { "from": "vis.object_as_hero", "to": "vis.anti.effect_soup", "type": "OPPOSES", "weight": 1.0 },
+      { "from": "vis.anachronistic_hightech", "to": "vis.object_as_hero", "type": "SUPPORTS", "weight": 0.9 },
+      { "from": "vis.anachronistic_hightech", "to": "polish_threshold", "type": "REQUIRES", "weight": 0.9 },
+      { "from": "art.editorial_light_room", "to": "art.still_as_film_seed", "type": "SUPPORTS", "weight": 0.95 },
+      { "from": "art.travel_ink_diary", "to": "vis.object_as_hero", "type": "SUPPORTS", "weight": 0.9 },
+      { "from": "mot.one_signature", "to": "vis.anti.effect_soup", "type": "SUPPORTS", "weight": 0.85 }
+    ]
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-04",
+      "summary": "Initial synthetic example graph for documentation and tests",
+      "changes": [
+        "Seeded core identity, registers, loves, antis, motion stack",
+        "Added anonymized evidence log from a GOOD/BAD image pack",
+        "Encoded polish gate for myth-tech object stills"
+      ]
+    }
+  ]
+}
