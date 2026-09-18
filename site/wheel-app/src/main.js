@@ -320,7 +320,11 @@ function openLightbox(src, alt, meta = null) {
   lb.classList.add("is-open");
 }
 window.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeLightbox();
+  // Stop other window key handlers (wheel Escape resets Myth-tech) while open.
+  if (e.key === "Escape" && lb.classList.contains("is-open")) {
+    e.stopImmediatePropagation();
+    closeLightbox();
+  }
 });
 
 fillLegend();
