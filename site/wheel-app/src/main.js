@@ -111,9 +111,15 @@ function fillLegend() {
     li.dataset.index = String(i);
     const hex = `#${s.accent.toString(16).padStart(6, "0")}`;
     li.innerHTML = `<span class="sw" style="background:${hex}"></span><span class="nm">${s.name}</span><span class="pc">${s.pct}%</span>`;
-    li.addEventListener("mouseenter", () => setActive(i, true));
-    li.addEventListener("focus", () => setActive(i, true));
-    li.addEventListener("click", () => setActive(i, true));
+    const activate = () => {
+      // Lightbox owns the viewport — do not change the wedge/panel behind it
+      // (arrows/Escape/orbit already gated; legend hover/focus was still live).
+      if (lb.classList.contains("is-open")) return;
+      setActive(i);
+    };
+    li.addEventListener("mouseenter", activate);
+    li.addEventListener("focus", activate);
+    li.addEventListener("click", activate);
     li.tabIndex = 0;
     legendEl.appendChild(li);
   });
@@ -1118,6 +1124,8 @@ renderer.domElement.addEventListener("pointerup", () => {
 
 function pick() {
   if (!overCanvas) return;
+  // Stale pointer + animating hover lifts must not re-pick under an open lightbox.
+  if (lb.classList.contains("is-open")) return;
   raycaster.setFromCamera(pointer, camera);
   const hits = raycaster.intersectObjects(sliceMeshes, false);
   if (hits.length) {
