@@ -1162,16 +1162,18 @@ function startWheelLoop() {
   wheelRaf = requestAnimationFrame(tick);
 }
 
-// Keyboard: cycle slices (wheel mode only)
+// Keyboard: cycle slices (wheel mode only). Ignore while lightbox is open
+// so arrows do not change the wedge behind the modal (Escape already gated).
 window.addEventListener("keydown", (e) => {
   if (viewMode !== "wheel") return;
+  if (lb.classList.contains("is-open")) return;
   if (e.key === "ArrowRight" || e.key === "ArrowDown") {
     e.preventDefault();
     setActive((activeIndex + 1 + SLICES.length) % SLICES.length);
   } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
     e.preventDefault();
     setActive((activeIndex - 1 + SLICES.length) % SLICES.length);
-  } else if (e.key === "Escape" && !lb.classList.contains("is-open")) {
+  } else if (e.key === "Escape") {
     // re-focus Myth-tech (Kali default)
     setActive(1);
   }
