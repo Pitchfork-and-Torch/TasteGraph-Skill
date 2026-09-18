@@ -1,0 +1,45 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: interest-cohort=()
+
+/og.jpg
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+
+/og.png
+  Cache-Control: public, max-age=86400
+
+/share-card.jpg
+  Cache-Control: public, max-age=86400
+
+/llms.txt
+  Cache-Control: public, max-age=3600
+  Content-Type: text/plain; charset=utf-8
+
+/robots.txt
+  Cache-Control: public, max-age=3600
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/wheel/assets/*
+  Cache-Control: public, max-age=3600
+
+/wheel/examples/*
+  Cache-Control: public, max-age=3600
+
+/wheel/contributing-sources.json
+  Cache-Control: public, max-age=60, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
+/wheel/ingest-stills.json
+  Cache-Control: public, max-age=60, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
+/wheel/ingest/*
+  Cache-Control: public, max-age=86400
+
+/wheel/index.html
+  Cache-Control: public, max-age=60
