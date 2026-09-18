@@ -153,7 +153,7 @@ function setPanel(slice) {
   // Mount figures in the DOM first (so images actually load), reveal on success,
   // remove on error - never leave a broken/missing tile in the wedge panel.
   slice.examples.forEach((ex) => {
-    const srcPath = String(ex.src || "").replace(/^\//, "");
+    const srcPath = String(ex.src || "").replace(/^\//, "").trim();
     if (!srcPath) return;
     const src = base + srcPath;
     const fig = document.createElement("figure");
@@ -285,12 +285,16 @@ function openLightbox(src, alt, meta = null) {
   const credit = String(meta?.credit || "").trim();
   const href = String(meta?.href || "").trim();
   const handle = credit.replace(/^@/, "");
+  // Fail closed: empty / whitespace-only src must not open a blank lightbox
+  // (gallery `if (!srcPath)` is truthy for "   "; ≠ Escape/arrows/legend/raycast).
+  const safeSrc = String(src || "").trim();
+  if (!safeSrc) return;
 
   // Fail closed: never leave a broken lightbox image on screen
   lbImg.onerror = () => {
     closeLightbox();
   };
-  lbImg.src = src;
+  lbImg.src = safeSrc;
   lbImg.alt = title || alt || "TasteGraph still";
 
   if (lbCredit) {
@@ -477,7 +481,7 @@ function renderIngestGrid() {
     return;
   }
   items.forEach((it) => {
-    const srcPath = String(it.src || "").replace(/^\//, "");
+    const srcPath = String(it.src || "").replace(/^\//, "").trim();
     if (!srcPath) return;
     const src = base + srcPath;
     const fig = document.createElement("figure");
