@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "graph_version": "0.1.0",
+    "created": "2026-01-01",
+    "updated": "2026-01-01",
+    "domains": [
+      "other"
+    ],
+    "title": "Untitled TasteGraph",
+    "locale": "en"
+  },
+  "core_identity": [],
+  "emotional_registers": [],
+  "hard_loves": [
+    {
+      "id": "placeholder.love",
+      "label": "Replace me",
+      "category": "other",
+      "description": "Seed love - replace on first real ingest.",
+      "confidence": "L",
+      "strength": 0.1,
+      "rarity": "common"
+    }
+  ],
+  "hard_antis": [
+    {
+      "id": "placeholder.anti",
+      "label": "Replace me",
+      "category": "other",
+      "description": "Seed anti - replace on first real ingest.",
+      "confidence": "L",
+      "strength": 0.1,
+      "rarity": "common"
+    }
+  ],
+  "motion_stack": [],
+  "density_by_surface": [],
+  "color_temperature": [],
+  "process_values": [],
+  "quick_tags": [],
+  "collaboration_protocol": [
+    {
+      "step": 1,
+      "title": "Classify",
+      "instruction": "Pick register or surface before inventing style."
+    },
+    {
+      "step": 2,
+      "title": "Load nodes",
+      "instruction": "Apply loves, antis, density, color, motion."
+    },
+    {
+      "step": 3,
+      "title": "Distance check",
+      "instruction": "Avoid cloning the nearest sibling surface."
+    },
+    {
+      "step": 4,
+      "title": "Prove once",
+      "instruction": "Ship with a complete gate; log outcome to evidence."
+    }
+  ],
+  "north_star": "Replace this sentence with a single governing line for every aesthetic decision.",
+  "evidence_log": [],
+  "affinity_graph": {
+    "nodes": [],
+    "edges": []
+  },
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-01-01",
+      "summary": "Scaffold created",
+      "changes": [
+        "Empty graph scaffold"
+      ]
+    }
+  ]
+}

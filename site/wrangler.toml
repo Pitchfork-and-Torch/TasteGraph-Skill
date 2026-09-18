@@ -1,0 +1,6 @@
+# Cloudflare Pages: tastegraph.jonbailey.xyz
+# Deploy from repo root:
+#   npx wrangler pages deploy site/public --project-name=tastegraph-jonbailey
+name = "tastegraph-jonbailey"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "public"
