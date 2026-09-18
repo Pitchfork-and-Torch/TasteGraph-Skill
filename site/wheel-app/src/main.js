@@ -252,15 +252,13 @@ function closeLightbox() {
   lb.classList.remove("is-open");
   lbSource.removeAttribute("href");
   document.body.style.overflow = "";
-  // Resume orbit only if still on the wheel and motion is allowed.
-  if (
-    viewMode === "wheel" &&
-    !reduceMotion &&
-    typeof controls !== "undefined" &&
-    controls &&
-    !overCanvas
-  ) {
-    controls.autoRotate = true;
+  // Resume orbit / drag only if still on the wheel and motion is allowed.
+  if (typeof controls !== "undefined" && controls) {
+    const onWheel = viewMode === "wheel";
+    controls.enabled = onWheel;
+    if (onWheel && !reduceMotion && !overCanvas) {
+      controls.autoRotate = true;
+    }
   }
 }
 
@@ -330,9 +328,11 @@ function openLightbox(src, alt, meta = null) {
 
   lb.classList.add("is-open");
   document.body.style.overflow = "hidden";
-  // Keep the pie still while the modal owns the viewport (≠ Escape/arrows).
+  // Keep the pie still while the modal owns the viewport (≠ Escape/arrows/scroll).
+  // Also disable OrbitControls drag/zoom so the wedge cannot move behind the modal.
   if (typeof controls !== "undefined" && controls) {
     controls.autoRotate = false;
+    controls.enabled = false;
   }
 }
 window.addEventListener("keydown", (e) => {
@@ -586,7 +586,8 @@ function setViewMode(mode, { pushUrl = true } = {}) {
     // stops it; do not re-enable on Wheel/Grid toggles  -  ≠ Escape/arrows/scroll).
     const lbOpen = typeof lb !== "undefined" && lb && lb.classList.contains("is-open");
     controls.autoRotate = !isGrid && !reduceMotion && !lbOpen;
-    controls.enabled = !isGrid;
+    // Drag/zoom must stay off while lightbox owns the viewport (≠ autoRotate-only pause).
+    controls.enabled = !isGrid && !lbOpen;
   }
 
   if (isGrid) {
