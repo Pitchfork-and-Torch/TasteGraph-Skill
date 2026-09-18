@@ -251,6 +251,17 @@ const lbKicker = lb.querySelector(".lb-kicker");
 function closeLightbox() {
   lb.classList.remove("is-open");
   lbSource.removeAttribute("href");
+  document.body.style.overflow = "";
+  // Resume orbit only if still on the wheel and motion is allowed.
+  if (
+    viewMode === "wheel" &&
+    !reduceMotion &&
+    typeof controls !== "undefined" &&
+    controls &&
+    !overCanvas
+  ) {
+    controls.autoRotate = true;
+  }
 }
 
 lb.querySelector(".lightbox-close").addEventListener("click", closeLightbox);
@@ -318,6 +329,11 @@ function openLightbox(src, alt, meta = null) {
   }
 
   lb.classList.add("is-open");
+  document.body.style.overflow = "hidden";
+  // Keep the pie still while the modal owns the viewport (≠ Escape/arrows).
+  if (typeof controls !== "undefined" && controls) {
+    controls.autoRotate = false;
+  }
 }
 window.addEventListener("keydown", (e) => {
   // Stop other window key handlers (wheel Escape resets Myth-tech) while open.
@@ -1082,7 +1098,7 @@ renderer.domElement.addEventListener("pointerenter", () => {
 renderer.domElement.addEventListener("pointerleave", () => {
   overCanvas = false;
   pointer.set(2, 2);
-  if (!reduceMotion) controls.autoRotate = true;
+  if (!reduceMotion && !lb.classList.contains("is-open")) controls.autoRotate = true;
 });
 renderer.domElement.addEventListener("pointerdown", () => {
   renderer.domElement.style.cursor = "grabbing";
