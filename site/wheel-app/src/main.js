@@ -582,7 +582,10 @@ function setViewMode(mode, { pushUrl = true } = {}) {
   }
 
   if (wheelReady && typeof controls !== "undefined" && controls) {
-    controls.autoRotate = !isGrid && !reduceMotion;
+    // Keep orbit paused while lightbox owns the viewport (openLightbox already
+    // stops it; do not re-enable on Wheel/Grid toggles — ≠ Escape/arrows/scroll).
+    const lbOpen = typeof lb !== "undefined" && lb && lb.classList.contains("is-open");
+    controls.autoRotate = !isGrid && !reduceMotion && !lbOpen;
     controls.enabled = !isGrid;
   }
 
