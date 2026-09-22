@@ -500,8 +500,15 @@
       .fx-aurora { animation: none; }
     }
   </style>
+  <style>
+    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip-link:focus{position:static;left:auto;width:auto;height:auto;padding:.5rem 1rem;z-index:1000;background:#111;color:#fff}
+  </style>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main">
+
   <div class="fx-root" aria-hidden="true">
     <div class="fx-aurora" id="aurora"></div>
     <canvas id="stars"></canvas>
@@ -738,5 +745,6 @@
     })();
   </script>
   <script defer src="https://hits.jonbailey.xyz/c.js" data-site="tastegraph"></script>
+  </main>
 </body>
 </html>
