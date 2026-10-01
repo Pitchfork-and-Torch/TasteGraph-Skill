@@ -107,6 +107,7 @@ FEATURED = {
     "2094839257097539896",  # blasfemiadigit Grace Kelly fashion
     "2094788234752430106",  # PureAestheticsz baddie fashion
     "2095185502118797759",  # kattlatte snake-eye fashion
+    "2105756727043834084",  # PureAestheticsz cable anatomy fashion
 }
 PRIVATE_HANDLES = {"suddenlyjon"}
 
@@ -225,6 +226,7 @@ def main() -> None:
             it.pop("post_id", None)
 
     batch_order = {
+        "love-2026-10-01-pure": -1,
         "love-2026-09-02-dump": 0,
         "love-2026-08-18-dump": 1,
         "love-2026-08-11-dump": 2,
@@ -249,8 +251,8 @@ def main() -> None:
 
     out = {
         "schema": "tastegraph-contributing-sources-v1",
-        "graph_version": "1.3.15",
-        "updated": "2026-09-02",
+        "graph_version": "1.3.16",
+        "updated": "2026-10-01",
         "policy": (
             "Public handles + post URLs only. Every art/image/video/craft post that informed "
             "the living graph should appear here. Featured = currently shown as pie stills."

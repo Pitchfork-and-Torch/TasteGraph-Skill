@@ -5,7 +5,7 @@
  * when the still comes from a public post (X art/design/type/UI tweets, etc.).
  * Shape: { src, caption, credit: "@handle", href: "https://x.com/.../status/..." }
  * Caption-only public-art stills are incomplete. Synthetic stills may omit href.
- * Graph public refresh: 1.3.15 (2026-09-02 wheel+grid ship after 09-02 dump >10 links)
+ * Graph public refresh: 1.3.16 (2026-10-01 cable anatomy stills on fashion wedge + grid)
  * STANDING (2026-08-10): any love dump with more than 10 links ships BOTH wheel wedges + grid.
  */
 export const SLICES = [
@@ -253,7 +253,7 @@ export const SLICES = [
     role: "Art planet only",
     body:
       "High-contrast editorial, gothic fairy physical paint, and glitch noise-pop figures. Allowed on fashion and pure art planets. Hard ban as product UI chrome - neon vomit stays an anti.",
-    note: "1.3.15 pie: Grace Kelly editorial + GitS-vibe baddie + neon snake-from-eye.",
+    note: "1.3.16 pie: cable anatomy set added. Prior stills stay: Grace Kelly, GitS-vibe baddie, neon snake-from-eye.",
     examples: [
       {
         src: "examples/fashion/01-v1315.jpg",
@@ -273,6 +273,30 @@ export const SLICES = [
         credit: "@kattlatte",
         href: "https://x.com/kattlatte/status/2095185502118797759",
       },
+      {
+        src: "examples/fashion/04-v1316.jpg",
+        caption: "Cable bouquet head on a pale field",
+        credit: "@PureAestheticsz",
+        href: "https://x.com/PureAestheticsz/status/2105756727043834084",
+      },
+      {
+        src: "examples/fashion/05-v1316.jpg",
+        caption: "Red LED helmet skull",
+        credit: "@PureAestheticsz",
+        href: "https://x.com/PureAestheticsz/status/2105756727043834084",
+      },
+      {
+        src: "examples/fashion/06-v1316.jpg",
+        caption: "Split porcelain face and exposed circuitry",
+        credit: "@PureAestheticsz",
+        href: "https://x.com/PureAestheticsz/status/2105756727043834084",
+      },
+      {
+        src: "examples/fashion/07-v1316.jpg",
+        caption: "Neon tube spine bouquet",
+        credit: "@PureAestheticsz",
+        href: "https://x.com/PureAestheticsz/status/2105756727043834084",
+      },
     ],
   },
 ];
@@ -281,4 +305,4 @@ export function totalDegrees() {
   return SLICES.reduce((s, x) => s + x.deg, 0);
 }
 
-export const GRAPH_PUBLIC_VERSION = "1.3.15";
+export const GRAPH_PUBLIC_VERSION = "1.3.16";
