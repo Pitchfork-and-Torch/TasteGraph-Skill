@@ -1,14 +1,35 @@
 {
   "schema": "tastegraph-contributing-sources-v1",
-  "graph_version": "1.3.15",
-  "updated": "2026-09-02",
+  "graph_version": "1.3.16",
+  "updated": "2026-10-01",
   "policy": "Public handles + post URLs only. Every art/image/video/craft post that informed the living graph should appear here. Featured = currently shown as pie stills.",
-  "count": 471,
+  "count": 472,
   "counts_by_kind": {
-    "image": 321,
+    "image": 322,
     "video": 150
   },
   "items": [
+    {
+      "handle": "PureAestheticsz",
+      "url": "https://x.com/PureAestheticsz/status/2105756727043834084",
+      "post_id": "2105756727043834084",
+      "kind": "image",
+      "title": "Cable anatomy set",
+      "batch": "love-2026-10-01-pure",
+      "registers": [
+        "fashion",
+        "music",
+        "myth",
+        "speculative"
+      ],
+      "nodes": [
+        "art.cable_anatomy",
+        "art.cyber_beauty_horror",
+        "ix.object_as_hero"
+      ],
+      "priority": 0,
+      "featured": true
+    },
     {
       "handle": "doganuraldesign",
       "url": "https://x.com/doganuraldesign/status/2091940837080924509",
@@ -431,7 +452,7 @@
       "url": "https://x.com/Dinosn/status/2093188887854157917",
       "post_id": "2093188887854157917",
       "kind": "image",
-      "title": "s1n6h/pentest-harness: Pentest Harness  -  Heaven for Hackers. A self-hosted AI agent harness for a...",
+      "title": "s1n6h/pentest-harness: Pentest Harness - Heaven for Hackers. A self-hosted AI agent harness for a...",
       "batch": "love-2026-09-02-dump",
       "registers": [
         "motion"
@@ -970,7 +991,7 @@
       "url": "https://x.com/nebulica/status/2088959640176607379",
       "post_id": "2088959640176607379",
       "kind": "video",
-      "title": ""We may in fact regard geometry as the most ancient branch of physics."  -  Albert Einstein",
+      "title": ""We may in fact regard geometry as the most ancient branch of physics." - Albert Einstein",
       "batch": "love-2026-08-18-dump",
       "registers": [
         "fashion",
@@ -1423,7 +1444,7 @@
       "url": "https://x.com/TencentHunyuan/status/2087068591296536755",
       "post_id": "2087068591296536755",
       "kind": "video",
-      "title": "Introducing Hy3D WorldClaw -  - an agentic workflow that generates large scale 3D open worlds from te...",
+      "title": "Introducing Hy3D WorldClaw - - an agentic workflow that generates large scale 3D open worlds from te...",
       "batch": "love-2026-08-11-dump",
       "registers": [
         "motion",

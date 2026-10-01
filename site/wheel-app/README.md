@@ -4,7 +4,7 @@ Interactive Three.js decision-weight wheel for TasteGraph (public product chrome
 
 **Cadence:** rebuild/redeploy only on milestones, structural reweight, or explicit "update the pie" - not after every private love batch. Private graph stays offline.
 
-**Last public pie refresh:** graph **1.3.15** - Wheel + Grid toggle; full public-art ingest stills archive.
+**Last public pie refresh:** graph **1.3.16** - fashion wedge and grid include the cable anatomy set.
 
 ## Source links (standing - non-negotiable)
 

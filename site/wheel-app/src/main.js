@@ -13,7 +13,7 @@ const hintEl = document.getElementById("hint");
 /** @type {{ items?: Array<Record<string, unknown>>, count?: number } | null} */
 let contributingSources = null;
 
-const CATALOG_BUST = "20260818b";
+const CATALOG_BUST = "20261001a";
 
 async function loadContributingSources() {
   const base = import.meta.env.BASE_URL || "/";

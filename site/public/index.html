@@ -7,8 +7,9 @@
   <meta name="description" content="Local-first personal TasteGraph: structured loves, antis, registers, and a 3D decision wheel. Open-source agent skill." />
   <meta name="theme-color" content="#0b0c0f" />
   <link rel="canonical" href="https://tastegraph.jonbailey.xyz/" />
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="/favicon.png?v=1.3.16" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=1.3.16" sizes="180x180" />
+  <link rel="apple-touch-icon" href="/icon-512.png?v=1.3.16" sizes="512x512" />
   <link rel="alternate" type="text/plain" href="/llms.txt" />
 
   <meta property="og:type" content="website" />
@@ -17,8 +18,8 @@
   <meta property="og:title" content="TasteGraph - Living personal taste graph" />
   <meta property="og:description" content="Local-first structured preference graph for aesthetic, creative, design, and cultural taste. Explore the interactive decision wheel." />
   <meta property="og:url" content="https://tastegraph.jonbailey.xyz/" />
-  <meta property="og:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15" />
-  <meta property="og:image:secure_url" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15" />
+  <meta property="og:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.16" />
+  <meta property="og:image:secure_url" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.16" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -29,7 +30,7 @@
   <meta name="twitter:creator" content="@suddenlyjon" />
   <meta name="twitter:title" content="TasteGraph - Living personal taste graph" />
   <meta name="twitter:description" content="Local-first structured preference graph. Explore the interactive 3D decision wheel." />
-  <meta name="twitter:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15" />
+  <meta name="twitter:image" content="https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.16" />
   <meta name="twitter:image:alt" content="TasteGraph gold constellation mark on charcoal" />
 
   <script type="application/ld+json">
@@ -39,9 +40,9 @@
     "name": "TasteGraph",
     "applicationCategory": "DesignApplication",
     "operatingSystem": "Any",
-    "softwareVersion": "1.3.15",
+    "softwareVersion": "1.3.16",
     "url": "https://tastegraph.jonbailey.xyz/",
-    "image": "https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.15",
+    "image": "https://tastegraph.jonbailey.xyz/og.jpg?v=1.3.16",
     "description": "Local-first personal taste graph with interactive 3D decision wheel.",
     "license": "https://opensource.org/licenses/MIT",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
@@ -499,8 +500,15 @@
       .fx-aurora { animation: none; }
     }
   </style>
+  <style>
+    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip-link:focus{position:static;left:auto;width:auto;height:auto;padding:.5rem 1rem;z-index:1000;background:#111;color:#fff}
+  </style>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main">
+
   <div class="fx-root" aria-hidden="true">
     <div class="fx-aurora" id="aurora"></div>
     <canvas id="stars"></canvas>
@@ -561,7 +569,7 @@
         <p>
           Exact arcs for each taste register. Hover a slice to lift it, read the meaning,
           and browse real stills with links to public X sources. Full contributing catalog
-          in a collapsible panel. Graph 1.3.15.
+          in a collapsible panel. Graph 1.3.16.
         </p>
         <a class="btn primary" href="/wheel/">Open wheel <span class="arrow" aria-hidden="true">→</span></a>
       </div>
@@ -605,7 +613,7 @@
     </div>
 
     <footer class="reveal d6">
-      <span>v1.3.15 | MIT</span>
+      <span>v1.3.16 | MIT</span>
       <a href="/wheel/">Wheel</a>
       <a href="/updates/">Updates</a>
       <a href="/updates/log.json">log.json</a>
@@ -737,5 +745,6 @@
     })();
   </script>
   <script defer src="https://hits.jonbailey.xyz/c.js" data-site="tastegraph"></script>
+  </main>
 </body>
 </html>

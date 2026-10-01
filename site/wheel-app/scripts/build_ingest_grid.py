@@ -313,18 +313,31 @@ def choose_winners(cands: list[dict]) -> list[dict]:
             by_hash[c["sha"]] = c
     stage = list(by_hash.values())
 
-    # 2) Same public post id only (never soft-matched href - that collapses artist packs)
-    by_post: dict[str, dict] = {}
+    # 2) Same public post id collapses cross-batch duplicates.
+    # Several different stills of one post inside a single batch stay on the grid.
+    by_post: dict[str, list[dict]] = {}
     no_post: list[dict] = []
     for c in stage:
         pid = str(c.get("post_id") or "").strip()
         if not pid:
             no_post.append(c)
             continue
-        prev = by_post.get(pid)
-        if prev is None or c["score"] > prev["score"]:
-            by_post[pid] = c
-    stage = list(by_post.values()) + no_post
+        by_post.setdefault(pid, []).append(c)
+    stage = list(no_post)
+    for group in by_post.values():
+        batches = {c.get("batch") for c in group}
+        if (
+            len(group) > 1
+            and batches == {"love-2026-10-01-pure"}
+            and all(not c.get("series") for c in group)
+        ):
+            stage.extend(group)
+            continue
+        best = group[0]
+        for c in group[1:]:
+            if c["score"] > best["score"]:
+                best = c
+        stage.append(best)
 
     # 3) Multi-frame series collapse
     by_series: dict[str, dict] = {}
@@ -379,6 +392,12 @@ def main() -> int:
                     continue
                 matched = match_post_strict(src, by_id, by_handle)
                 soft = None if matched else enrich_source_soft(src, by_handle)
+                if not matched:
+                    for tail in re.findall(r"\d{6}", src.stem):
+                        hits = [it for pid, it in by_id.items() if str(pid).endswith(tail)]
+                        if len(hits) == 1:
+                            soft = hits[0]
+                            break
                 src_meta = matched or soft
                 # post_id only from strict match - soft credit must not collapse packs
                 pid = str((matched or {}).get("post_id") or "") if matched else ""
@@ -387,10 +406,13 @@ def main() -> int:
                 title = src.stem.replace("-", " ").replace("_", " ")
                 registers: list[str] = []
                 kind = "image"
+                ev_row = evidence_by_id.get(pid) if pid else None
+                stills = (ev_row or {}).get("stills") or {}
+                if src.stem in stills:
+                    title = str(stills[src.stem])
+                elif src_meta and matched:
+                    title = str(matched.get("title") or title)
                 if src_meta:
-                    # Prefer catalog title only when strict (unique post), else keep still name
-                    if matched:
-                        title = str(matched.get("title") or title)
                     registers = list(src_meta.get("registers") or [])
                     kind = str(src_meta.get("kind") or "image")
                     if not href and pid and handle:
@@ -412,6 +434,8 @@ def main() -> int:
                     pid = pid or "2084611335346925670"
                     registers = registers or ["defensive", "pro", "motion"]
 
+                if batch == "love-2026-10-01-pure":
+                    registers = ["fashion", "myth"]
                 size = src.stat().st_size
                 candidates.append(
                     {
@@ -474,10 +498,16 @@ def main() -> int:
 
         matched_item = None
         if href:
-            for it in items:
-                if it.get("href") == href:
-                    matched_item = it
-                    break
+            same_href = [it for it in items if it.get("href") == href]
+            if len(same_href) > 1:
+                for it in same_href:
+                    it["featured"] = True
+                    regs = set(it.get("registers") or [])
+                    regs.update(regs_new)
+                    it["registers"] = sorted(regs)
+                continue
+            if same_href:
+                matched_item = same_href[0]
         if matched_item is None and credit:
             h = credit.lstrip("@").lower()
             cands = [
@@ -526,6 +556,7 @@ def main() -> int:
 
     # Prefer newest batches first, then featured last already appended
     batch_rank = {
+        "love-2026-10-01-pure": -1,
         "love-2026-08-07-dump": 0,
         "love-2026-08-06-dump": 1,
         "love-2026-08-05-evening": 2,
@@ -546,7 +577,7 @@ def main() -> int:
     catalog = {
         "schema": "tastegraph-ingest-stills-v1",
         "graph_version": version,
-        "updated": "2026-09-02",
+        "updated": "2026-10-01",
         "policy": (
             "Public-art stills only (screenshots of public X posts that informed TasteGraph). "
             "Credit + post URL when recoverable. No private paths."

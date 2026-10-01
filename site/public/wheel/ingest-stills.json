@@ -1,10 +1,11 @@
 {
   "schema": "tastegraph-ingest-stills-v1",
-  "graph_version": "1.3.15",
-  "updated": "2026-09-02",
+  "graph_version": "1.3.16",
+  "updated": "2026-10-01",
   "policy": "Public-art stills only (screenshots of public X posts that informed TasteGraph). Credit + post URL when recoverable. No private paths.",
-  "count": 474,
+  "count": 478,
   "counts_by_batch": {
+    "love-2026-10-01-pure": 4,
     "love-2026-08-07-dump": 106,
     "love-2026-08-06-dump": 24,
     "love-2026-08-05-evening": 31,
@@ -19,6 +20,66 @@
     "love-2026-08-18-dump": 31
   },
   "items": [
+    {
+      "id": "love-2026-10-01-pure/pureaestheticsz-cable-bouquet-834084",
+      "src": "ingest/love-2026-10-01-pure/pureaestheticsz-cable-bouquet-834084.jpg",
+      "title": "Cable bouquet head on a pale field",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2105756727043834084",
+      "kind": "image",
+      "batch": "love-2026-10-01-pure",
+      "registers": [
+        "fashion",
+        "myth"
+      ],
+      "featured": true,
+      "post_id": "2105756727043834084"
+    },
+    {
+      "id": "love-2026-10-01-pure/pureaestheticsz-neon-spine-834084",
+      "src": "ingest/love-2026-10-01-pure/pureaestheticsz-neon-spine-834084.jpg",
+      "title": "Neon tube spine bouquet",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2105756727043834084",
+      "kind": "image",
+      "batch": "love-2026-10-01-pure",
+      "registers": [
+        "fashion",
+        "myth"
+      ],
+      "featured": true,
+      "post_id": "2105756727043834084"
+    },
+    {
+      "id": "love-2026-10-01-pure/pureaestheticsz-led-skull-834084",
+      "src": "ingest/love-2026-10-01-pure/pureaestheticsz-led-skull-834084.jpg",
+      "title": "Red LED helmet skull",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2105756727043834084",
+      "kind": "image",
+      "batch": "love-2026-10-01-pure",
+      "registers": [
+        "fashion",
+        "myth"
+      ],
+      "featured": true,
+      "post_id": "2105756727043834084"
+    },
+    {
+      "id": "love-2026-10-01-pure/pureaestheticsz-split-face-834084",
+      "src": "ingest/love-2026-10-01-pure/pureaestheticsz-split-face-834084.jpg",
+      "title": "Split porcelain face and exposed circuitry",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2105756727043834084",
+      "kind": "image",
+      "batch": "love-2026-10-01-pure",
+      "registers": [
+        "fashion",
+        "myth"
+      ],
+      "featured": true,
+      "post_id": "2105756727043834084"
+    },
     {
       "id": "love-2026-08-07-dump/gregcatarino1-075398",
       "src": "ingest/love-2026-08-07-dump/gregcatarino1-075398.jpg",
@@ -1920,6 +1981,104 @@
       "post_id": "2085221828780236871"
     },
     {
+      "id": "love-2026-08-05-evening/palak-styles-1",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-1.jpg",
+      "title": "palak styles 1",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "defensive",
+        "motion",
+        "myth",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-2",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-2.jpg",
+      "title": "palak styles 2",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "defensive",
+        "motion",
+        "myth",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-3",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-3.jpg",
+      "title": "palak styles 3",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "defensive",
+        "motion",
+        "myth",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/palak-styles-4",
+      "src": "ingest/love-2026-08-05-evening/palak-styles-4.jpg",
+      "title": "palak styles 4",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "defensive",
+        "motion",
+        "myth",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/unseenai-mixes",
+      "src": "ingest/love-2026-08-05-evening/unseenai-mixes.jpg",
+      "title": "unseenai mixes",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-08-05-evening/unseenai-sref-recipe",
+      "src": "ingest/love-2026-08-05-evening/unseenai-sref-recipe.jpg",
+      "title": "unseenai sref recipe",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-08-05-evening",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
       "id": "love-2026-08-05-evening/defaced-gm",
       "src": "ingest/love-2026-08-05-evening/defaced-gm.jpg",
       "title": "defaced gm",
@@ -2224,70 +2383,6 @@
       "post_id": null
     },
     {
-      "id": "love-2026-08-05-evening/palak-styles-1",
-      "src": "ingest/love-2026-08-05-evening/palak-styles-1.jpg",
-      "title": "palak styles 1",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-08-05-evening",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-08-05-evening/palak-styles-2",
-      "src": "ingest/love-2026-08-05-evening/palak-styles-2.jpg",
-      "title": "palak styles 2",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-08-05-evening",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-08-05-evening/palak-styles-3",
-      "src": "ingest/love-2026-08-05-evening/palak-styles-3.jpg",
-      "title": "palak styles 3",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-08-05-evening",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-08-05-evening/palak-styles-4",
-      "src": "ingest/love-2026-08-05-evening/palak-styles-4.jpg",
-      "title": "palak styles 4",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-08-05-evening",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
       "id": "love-2026-08-05-evening/poetengineer-knowledge-tree",
       "src": "ingest/love-2026-08-05-evening/poetengineer-knowledge-tree.jpg",
       "title": "poetengineer knowledge tree",
@@ -2345,34 +2440,6 @@
         "music",
         "myth",
         "speculative"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-08-05-evening/unseenai-mixes",
-      "src": "ingest/love-2026-08-05-evening/unseenai-mixes.jpg",
-      "title": "unseenai mixes",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
-      "kind": "image",
-      "batch": "love-2026-08-05-evening",
-      "registers": [
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-08-05-evening/unseenai-sref-recipe",
-      "src": "ingest/love-2026-08-05-evening/unseenai-sref-recipe.jpg",
-      "title": "unseenai sref recipe",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
-      "kind": "image",
-      "batch": "love-2026-08-05-evening",
-      "registers": [
-        "pro"
       ],
       "featured": false,
       "post_id": null
@@ -3341,6 +3408,21 @@
       "post_id": null
     },
     {
+      "id": "love-2026-08-04/unseen-rise",
+      "src": "ingest/love-2026-08-04/unseen-rise.jpg",
+      "title": "unseen rise",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-08-04",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
       "id": "love-2026-08-04/booter-mood-1",
       "src": "ingest/love-2026-08-04/booter-mood-1.jpg",
       "title": "booter mood 1",
@@ -3433,20 +3515,6 @@
       "post_id": null
     },
     {
-      "id": "love-2026-08-04/unseen-rise",
-      "src": "ingest/love-2026-08-04/unseen-rise.jpg",
-      "title": "unseen rise",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
-      "kind": "image",
-      "batch": "love-2026-08-04",
-      "registers": [
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
       "id": "love-2026-09-02-dump/av1dlive-118625",
       "src": "ingest/love-2026-09-02-dump/av1dlive-118625.jpg",
       "title": "Agent passport - grants, limits, kill switch",
@@ -3526,37 +3594,6 @@
       "post_id": "2093920203918737775"
     },
     {
-      "id": "love-2026-09-02-dump/jayborda-168895",
-      "src": "ingest/love-2026-09-02-dump/jayborda-168895.jpg",
-      "title": "Geomanist type as stone-arch landscape",
-      "credit": "@JayBorda",
-      "href": "https://x.com/JayBorda/status/2091477370872168895",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro",
-        "speculative"
-      ],
-      "featured": true,
-      "post_id": "2091477370872168895"
-    },
-    {
-      "id": "love-2026-09-02-dump/pureaestheticsz-430106",
-      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106.jpg",
-      "title": "GitS-vibe baddie portrait",
-      "credit": "@PureAestheticsz",
-      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "fashion"
-      ],
-      "featured": true,
-      "post_id": "2094788234752430106"
-    },
-    {
       "id": "love-2026-09-02-dump/doganuraldesign-675287",
       "src": "ingest/love-2026-09-02-dump/doganuraldesign-675287.jpg",
       "title": "Glitter galaxy still - research texture",
@@ -3620,7 +3657,7 @@
     {
       "id": "love-2026-09-02-dump/palakonweb-420561",
       "src": "ingest/love-2026-09-02-dump/palakonweb-420561.jpg",
-      "title": "Jet light-trail object in void",
+      "title": "Imagery done for a recent design work. Made with @ChatGPT",
       "credit": "@Palakonweb",
       "href": "https://x.com/Palakonweb/status/2094027778769420561",
       "kind": "image",
@@ -3633,6 +3670,57 @@
       ],
       "featured": true,
       "post_id": "2094027778769420561"
+    },
+    {
+      "id": "love-2026-09-02-dump/jayborda-168895-01",
+      "src": "ingest/love-2026-09-02-dump/jayborda-168895-01.jpg",
+      "title": "jayborda 168895 01",
+      "credit": "@JayBorda",
+      "href": "https://x.com/JayBorda/status/2091477370872168895",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/jayborda-168895-02",
+      "src": "ingest/love-2026-09-02-dump/jayborda-168895-02.jpg",
+      "title": "jayborda 168895 02",
+      "credit": "@JayBorda",
+      "href": "https://x.com/JayBorda/status/2091477370872168895",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/jayborda-168895-03",
+      "src": "ingest/love-2026-09-02-dump/jayborda-168895-03.jpg",
+      "title": "jayborda 168895 03",
+      "credit": "@JayBorda",
+      "href": "https://x.com/JayBorda/status/2091477370872168895",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": null
     },
     {
       "id": "love-2026-09-02-dump/kattlatte-797759",
@@ -3651,19 +3739,55 @@
       "post_id": "2095185502118797759"
     },
     {
-      "id": "love-2026-09-02-dump/unseenai-734917",
-      "src": "ingest/love-2026-09-02-dump/unseenai-734917.jpg",
-      "title": "Pink dune walker - atmosphere field",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "id": "love-2026-09-02-dump/palakonweb-420561-01",
+      "src": "ingest/love-2026-09-02-dump/palakonweb-420561-01.jpg",
+      "title": "palakonweb 420561 01",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
       "kind": "image",
       "batch": "love-2026-09-02-dump",
       "registers": [
-        "music",
+        "defensive",
+        "motion",
+        "myth",
         "pro"
       ],
       "featured": true,
-      "post_id": "2094000827660734917"
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/palakonweb-420561-02",
+      "src": "ingest/love-2026-09-02-dump/palakonweb-420561-02.jpg",
+      "title": "palakonweb 420561 02",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "myth",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/palakonweb-420561-03",
+      "src": "ingest/love-2026-09-02-dump/palakonweb-420561-03.jpg",
+      "title": "palakonweb 420561 03",
+      "credit": "@Palakonweb",
+      "href": "https://x.com/Palakonweb/status/2094027778769420561",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "myth",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
     },
     {
       "id": "love-2026-09-02-dump/raul_dronca-529461",
@@ -3681,6 +3805,63 @@
       ],
       "featured": true,
       "post_id": "2093270659824529461"
+    },
+    {
+      "id": "love-2026-09-02-dump/pureaestheticsz-430106-01",
+      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106-01.jpg",
+      "title": "pureaestheticsz 430106 01",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/pureaestheticsz-430106-02",
+      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106-02.jpg",
+      "title": "pureaestheticsz 430106 02",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/pureaestheticsz-430106-03",
+      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106-03.jpg",
+      "title": "pureaestheticsz 430106 03",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/unseenai-734917",
+      "src": "ingest/love-2026-09-02-dump/unseenai-734917.jpg",
+      "title": "reset your mobile mode",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": "2094000827660734917"
     },
     {
       "id": "love-2026-09-02-dump/permadelusional-980981",
@@ -3717,6 +3898,23 @@
       ],
       "featured": true,
       "post_id": "2091940837080924509"
+    },
+    {
+      "id": "love-2026-09-02-dump/jayborda-168895",
+      "src": "ingest/love-2026-09-02-dump/jayborda-168895.jpg",
+      "title": "Stop using boring typefaces, please.",
+      "credit": "@JayBorda",
+      "href": "https://x.com/JayBorda/status/2091477370872168895",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "defensive",
+        "motion",
+        "pro",
+        "speculative"
+      ],
+      "featured": true,
+      "post_id": "2091477370872168895"
     },
     {
       "id": "love-2026-09-02-dump/lepadphone-204746",
@@ -3778,6 +3976,65 @@
       ],
       "featured": true,
       "post_id": "2094765910502298082"
+    },
+    {
+      "id": "love-2026-09-02-dump/pureaestheticsz-430106",
+      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106.jpg",
+      "title": "The baddie",
+      "credit": "@PureAestheticsz",
+      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "fashion"
+      ],
+      "featured": true,
+      "post_id": "2094788234752430106"
+    },
+    {
+      "id": "love-2026-09-02-dump/unseenai-734917-01",
+      "src": "ingest/love-2026-09-02-dump/unseenai-734917-01.jpg",
+      "title": "unseenai 734917 01",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/unseenai-734917-02",
+      "src": "ingest/love-2026-09-02-dump/unseenai-734917-02.jpg",
+      "title": "unseenai 734917 02",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
+    },
+    {
+      "id": "love-2026-09-02-dump/unseenai-734917-03",
+      "src": "ingest/love-2026-09-02-dump/unseenai-734917-03.jpg",
+      "title": "unseenai 734917 03",
+      "credit": "@unseenai",
+      "href": "https://x.com/unseenai/status/2094000827660734917",
+      "kind": "image",
+      "batch": "love-2026-09-02-dump",
+      "registers": [
+        "music",
+        "pro"
+      ],
+      "featured": true,
+      "post_id": null
     },
     {
       "id": "love-2026-09-02-dump/matinotfound-254932",
@@ -5620,7 +5877,7 @@
     {
       "id": "love-2026-08-11-dump/tencenthunyuan-536755",
       "src": "ingest/love-2026-08-11-dump/tencenthunyuan-536755.jpg",
-      "title": "Introducing Hy3D WorldClaw--an agentic workflow that generates large scale 3D open worlds from te...",
+      "title": "Introducing Hy3D WorldClaw - - an agentic workflow that generates large scale 3D open worlds from te...",
       "credit": "@TencentHunyuan",
       "href": "https://x.com/TencentHunyuan/status/2087068591296536755",
       "kind": "video",
@@ -5631,54 +5888,6 @@
       ],
       "featured": false,
       "post_id": "2087068591296536755"
-    },
-    {
-      "id": "love-2026-09-02-dump/jayborda-168895-01",
-      "src": "ingest/love-2026-09-02-dump/jayborda-168895-01.jpg",
-      "title": "jayborda 168895 01",
-      "credit": "@JayBorda",
-      "href": "https://x.com/JayBorda/status/2091477370872168895",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/jayborda-168895-02",
-      "src": "ingest/love-2026-09-02-dump/jayborda-168895-02.jpg",
-      "title": "jayborda 168895 02",
-      "credit": "@JayBorda",
-      "href": "https://x.com/JayBorda/status/2091477370872168895",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/jayborda-168895-03",
-      "src": "ingest/love-2026-09-02-dump/jayborda-168895-03.jpg",
-      "title": "jayborda 168895 03",
-      "credit": "@JayBorda",
-      "href": "https://x.com/JayBorda/status/2091477370872168895",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
     },
     {
       "id": "love-2026-08-08-dump/insporadesign-653142",
@@ -5926,7 +6135,7 @@
     {
       "id": "love-2026-08-11-dump/lucaponsatoart-657404",
       "src": "ingest/love-2026-08-11-dump/lucaponsatoart-657404.jpg",
-      "title": "only two pieces remaining from 'the monotony of everyday life.' on @SuperRare",
+      "title": "only two pieces remaining from "the monotony of everyday life." on @SuperRare",
       "credit": "@LucaPonsatoArt",
       "href": "https://x.com/LucaPonsatoArt/status/2086809606760657404",
       "kind": "image",
@@ -5986,54 +6195,6 @@
       "post_id": "2086024955398140250"
     },
     {
-      "id": "love-2026-09-02-dump/palakonweb-420561-01",
-      "src": "ingest/love-2026-09-02-dump/palakonweb-420561-01.jpg",
-      "title": "palakonweb 420561 01",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/palakonweb-420561-02",
-      "src": "ingest/love-2026-09-02-dump/palakonweb-420561-02.jpg",
-      "title": "palakonweb 420561 02",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/palakonweb-420561-03",
-      "src": "ingest/love-2026-09-02-dump/palakonweb-420561-03.jpg",
-      "title": "palakonweb 420561 03",
-      "credit": "@Palakonweb",
-      "href": "https://x.com/Palakonweb/status/2094027778769420561",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "defensive",
-        "motion",
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
       "id": "love-2026-08-11-dump/mirrutatep-613127",
       "src": "ingest/love-2026-08-11-dump/mirrutatep-613127.jpg",
       "title": "Pixel art without AI 😌",
@@ -6076,48 +6237,6 @@
       ],
       "featured": false,
       "post_id": "2086911258280775991"
-    },
-    {
-      "id": "love-2026-09-02-dump/pureaestheticsz-430106-01",
-      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106-01.jpg",
-      "title": "pureaestheticsz 430106 01",
-      "credit": "@PureAestheticsz",
-      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "fashion"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/pureaestheticsz-430106-02",
-      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106-02.jpg",
-      "title": "pureaestheticsz 430106 02",
-      "credit": "@PureAestheticsz",
-      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "fashion"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/pureaestheticsz-430106-03",
-      "src": "ingest/love-2026-09-02-dump/pureaestheticsz-430106-03.jpg",
-      "title": "pureaestheticsz 430106 03",
-      "credit": "@PureAestheticsz",
-      "href": "https://x.com/PureAestheticsz/status/2094788234752430106",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "fashion"
-      ],
-      "featured": false,
-      "post_id": null
     },
     {
       "id": "love-2026-08-18-dump/benjaminuix-707807",
@@ -6580,48 +6699,6 @@
       "post_id": "2086012283050762482"
     },
     {
-      "id": "love-2026-09-02-dump/unseenai-734917-01",
-      "src": "ingest/love-2026-09-02-dump/unseenai-734917-01.jpg",
-      "title": "unseenai 734917 01",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/unseenai-734917-02",
-      "src": "ingest/love-2026-09-02-dump/unseenai-734917-02.jpg",
-      "title": "unseenai 734917 02",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
-      "id": "love-2026-09-02-dump/unseenai-734917-03",
-      "src": "ingest/love-2026-09-02-dump/unseenai-734917-03.jpg",
-      "title": "unseenai 734917 03",
-      "credit": "@unseenai",
-      "href": "https://x.com/unseenai/status/2094000827660734917",
-      "kind": "image",
-      "batch": "love-2026-09-02-dump",
-      "registers": [
-        "pro"
-      ],
-      "featured": false,
-      "post_id": null
-    },
-    {
       "id": "love-2026-08-11-dump/artntek-460650",
       "src": "ingest/love-2026-08-11-dump/artntek-460650.jpg",
       "title": "Velocity driven drag & drop interactions.",
@@ -6792,7 +6869,7 @@
     {
       "id": "love-2026-08-18-dump/nebulica-607379",
       "src": "ingest/love-2026-08-18-dump/nebulica-607379.jpg",
-      "title": "'We may in fact regard geometry as the most ancient branch of physics.' - Albert Einstein",
+      "title": ""We may in fact regard geometry as the most ancient branch of physics." - Albert Einstein",
       "credit": "@nebulica",
       "href": "https://x.com/nebulica/status/2088959640176607379",
       "kind": "video",
@@ -6909,7 +6986,7 @@
     {
       "id": "love-2026-08-08-dump/xian0063-990156",
       "src": "ingest/love-2026-08-08-dump/xian0063-990156.jpg",
-      "title": "这两天 Claude 的手写可视化很火～ ✍️很多人看到的是'手写字体'，我看到的是另一件事： 🌈网页终于不再只是规整的卡片和模板，而是重新有了纸张、涂鸦、翻页、拖拽和人的手感。 整理了 5 个...",
+      "title": "这两天 Claude 的手写可视化很火～ ✍️很多人看到的是"手写字体"，我看到的是另一件事： 🌈网页终于不再只是规整的卡片和模板，而是重新有了纸张、涂鸦、翻页、拖拽和人的手感。 整理了 5 个...",
       "credit": "@Xian0063",
       "href": "https://x.com/Xian0063/status/2085798494623990156",
       "kind": "video",
